@@ -1,0 +1,9 @@
+.nft-card-content-cardmusic{
+    width: 90%;
+    height: 354px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}

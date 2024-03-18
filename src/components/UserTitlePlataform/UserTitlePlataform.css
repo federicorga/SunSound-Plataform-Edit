@@ -1,0 +1,30 @@
+
+.content-all-userTitle-plataform{
+    display: flex;
+    align-items: center;
+}
+
+.content-usertitle-name-icon-verify{
+    padding-left: 23px;
+}
+.content-usertitle-name-icon{
+    display: flex;
+    align-items: center;
+}
+
+
+.user-verification-text{
+    font-size: var(--font-size-mini);
+    letter-spacing: 0.25em;
+    background: linear-gradient(0deg, #e9cdff, #b658ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    font-family: var(--font-montserrat);
+}
+
+.user-p-detalle-canciones-oyentes{
+    color: var(--color-white);
+    font-size: var(--font-size-mini);
+    font-family: var(--font-montserrat);
+}

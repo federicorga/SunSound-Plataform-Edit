@@ -1,0 +1,10 @@
+.div-content-artiscard-img-user{
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.div-content-artiscard-user-verify{    display: flex;
+    padding-left: 10px;}

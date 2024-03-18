@@ -1,0 +1,12 @@
+.rectangle-content-box{
+    padding: 20px;
+    border-radius: var(--br-6xl);
+   
+    
+}
+
+.retangle-content-titulo{
+    color: white;
+    font-family: var(--font-montserrat);
+    font-weight: 500;
+}

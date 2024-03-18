@@ -1,0 +1,13 @@
+.card-img-user-content{
+  
+    width: 233px;
+    height: 233px;
+    object-fit: cover;
+}
+
+
+.card-img-user-content img{
+    border-radius: var(--br-97xl-5);
+    width: 100%;
+    height: 100%;
+}

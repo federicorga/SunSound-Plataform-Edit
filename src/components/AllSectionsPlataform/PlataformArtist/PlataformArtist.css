@@ -1,0 +1,64 @@
+
+.SectionA{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 100%) url('../../../../public/rectangle-113@2x.png') center/cover no-repeat;
+    
+    height: 433px;
+}
+
+.SectionB{
+    background: url('../../../../public/group-8.svg');
+    padding-top: 79px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.SectionB-B{
+    height: 1300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.nav-plataform{
+    background: #302f2f82;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.plataform-usertitleplataform-content{
+    padding-top: 77px;
+    padding-left: 115px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.plataform-content-cardmusic{
+    height: 500px;
+    align-content: space-between;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+.content-form-loadingMusic-inPlataform{display: flex;
+    backdrop-filter: blur(5px);
+    background-color: rgba(29, 36, 52, .9);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;}

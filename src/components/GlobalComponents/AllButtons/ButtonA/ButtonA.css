@@ -1,0 +1,19 @@
+.button-A{
+    border-radius: var(--br-3xs);
+    width: 112px;
+    height: 39px;
+background: none;
+cursor: pointer;
+transition: 0.5s;
+}
+
+
+.button-A:hover{
+    filter: brightness(1.2); 
+}
+
+.button-A-text{
+    font-size: var(--font-size-base);
+    font-family: var(--font-montserrat);
+    color: var(--color-white);
+}

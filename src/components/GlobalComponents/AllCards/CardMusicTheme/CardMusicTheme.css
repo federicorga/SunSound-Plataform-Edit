@@ -1,0 +1,56 @@
+.img-music-name-teme-interpete{
+    display: flex;
+    align-items: center;
+}
+
+.content-title-heart-musicplayer{
+    display: flex;
+    padding-left: 15px;
+   
+    height: 54px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-title-subititle-musicplayer{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+
+
+.name-teme-song-musicplayer{
+    margin: 0;
+    padding: 0;
+    font-size: var(--font-size-lg);
+    line-height: 160%;
+    font-family: var(--font-montserrat);
+    color: var(--color-white);
+    text-align: left;
+}
+
+.name-artista-song-musicplayer{
+    margin: 0;
+    font-size: var(--font-size-base);
+    line-height: 160%;
+    font-family: var(--font-montserrat);
+    color: var(--color-gray-100);
+    text-align: left;
+}
+
+
+.content-heart-button{    cursor: pointer;
+    padding-left: 25px;
+}
+
+
+.butons-heart-musicplayer{
+    background: none;
+    border: none;
+}

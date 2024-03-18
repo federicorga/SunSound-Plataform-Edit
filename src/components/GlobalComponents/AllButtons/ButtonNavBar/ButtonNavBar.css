@@ -1,0 +1,13 @@
+.button-navbar-plataforms{
+    font-size: var(--font-size-xl);
+    line-height: 160%;
+    font-family: var(--font-montserrat);
+    color: var(--color-white);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+
+.button-navbar-plataforms:hover{
+    color: #949494;
+}

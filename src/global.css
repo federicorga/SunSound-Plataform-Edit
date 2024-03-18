@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+  background-color: #2b2527;
+
+}
+
+
+a{
+  text-decoration: none;
+}
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-lg: 18px;
+  --font-size-base: 16px;
+  --font-size-sm: 14px;
+  --font-size-mini: 15px;
+  --font-size-6xl: 25px;
+  --font-size-26xl: 45px;
+  --font-size-3xs: 10px;
+  
+
+
+  /* Colors */
+  --color-gray-100: #7a7a7a;
+  --color-gray-200: #221e1f;
+  --color-gray-300: rgba(34, 30, 31, 0.37);
+  --color-gray-500:#858383b3;
+  --color-white: #fff;
+  --color-blueviolet-100: #8f00ff;
+  --color-blueviolet-200: rgba(143, 0, 255, 0.2);
+  --color-darkgray-100: #a7a7a7;
+  --color-darkgray-200: #9f9d9e;
+  --color-darkgray-300: rgba(155, 155, 155, 0.46);
+  --color-gainsboro-100: #d9d9d9;
+  --color-gainsboro-200: rgba(217, 217, 217, 0);
+  --color-mediumorchid: #a258dd;
+  --color-plum: #d3afee;
+  --color-dimgray: #635b5d;
+
+
+  --color-dimgray-100: rgba(90, 79, 86, 0.14);
+
+  /* Gaps */
+  --gap-0: 0px;
+
+  /* Paddings */
+  --padding-0: 0px;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+  --br-9xs: 4px;
+  --br-5xs: 8px;
+  --br-8xs: 5px;
+  --br-6xl: 25px;
+  --br-xl: 20px;
+  --br-4xl: 23px;
+  --br-mini: 15px;
+  --br-97xl-5: 116.5px;
+  --br-86xl: 105px;
+}
+
+
+
+.app-content-navbar-header-allpageplataform{
+  display: flex;
+  width: 100%;
+}
+
+
+.app-content-headerbar-allroutes{
+  width: 100%;
+}
