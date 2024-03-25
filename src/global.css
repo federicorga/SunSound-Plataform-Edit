@@ -3,7 +3,7 @@ body {
   margin: 0;
   line-height: normal;
   background-color: #2b2527;
-
+  font-family: var(--font-montserrat);
 }
 
 
@@ -17,12 +17,17 @@ a{
   /* font sizes */
   --font-size-xl: 20px;
   --font-size-lg: 18px;
-  --font-size-base: 16px;
+  --font-size-base: 1rem;
   --font-size-sm: 14px;
+  --font-size-rsr:0.875rem;
+  
   --font-size-mini: 15px;
   --font-size-6xl: 25px;
   --font-size-26xl: 45px;
   --font-size-3xs: 10px;
+  --font-size-h1: 40px;
+  --font-size-h2: 38px;
+  --font-size-h3: 20px;
   
 
 
@@ -42,6 +47,7 @@ a{
   --color-mediumorchid: #a258dd;
   --color-plum: #d3afee;
   --color-dimgray: #635b5d;
+  --color-lightgray: #cdcdcd;
 
 
   --color-dimgray-100: rgba(90, 79, 86, 0.14);
@@ -51,6 +57,10 @@ a{
 
   /* Paddings */
   --padding-0: 0px;
+
+  /* Margin */
+
+  --layout-sidebar-width: 210px;
 
   /* Border radiuses */
   --br-3xs: 10px;
@@ -63,9 +73,18 @@ a{
   --br-mini: 15px;
   --br-97xl-5: 116.5px;
   --br-86xl: 105px;
+
+
+  /* Grid*/
+  --grid-item--min-width: calc((max(0px, 640px) - 0px*(4 - 1)) / 4);
 }
 
 
+.page-main{
+  margin-left: var(--layout-sidebar-width);
+  min-width: 770px;
+  position: relative;
+}
 
 .app-content-navbar-header-allpageplataform{
   display: flex;

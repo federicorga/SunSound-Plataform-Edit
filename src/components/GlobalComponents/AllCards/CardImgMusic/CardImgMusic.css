@@ -3,6 +3,7 @@
 .div-card-img-music{
     width: 214px;
     height: 204px;
+    margin: 8px;
     border-radius: var(--br-6xl);
     cursor: pointer;
 }

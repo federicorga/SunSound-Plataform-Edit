@@ -1,7 +1,8 @@
 .navbar-plataform{
+    position: fixed;
     background-color: var(--color-gray-200);
-    width: 243px;
-    height: 1938px;
+    width: 210px;
+    height: 100%;
     text-align: left;
     font-size: var(--font-size-xl);
     color: var(--color-white);

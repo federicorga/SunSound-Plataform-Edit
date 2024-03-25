@@ -1,13 +1,12 @@
 .img-music-name-teme-interpete{
     display: flex;
     align-items: center;
+    width: 27%;
 }
 
 .content-title-heart-musicplayer{
     display: flex;
     padding-left: 15px;
-   
-    height: 54px;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -28,7 +27,7 @@
 .name-teme-song-musicplayer{
     margin: 0;
     padding: 0;
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-base);
     line-height: 160%;
     font-family: var(--font-montserrat);
     color: var(--color-white);
@@ -37,7 +36,7 @@
 
 .name-artista-song-musicplayer{
     margin: 0;
-    font-size: var(--font-size-base);
+    font-size: var(--font-size-rsr);
     line-height: 160%;
     font-family: var(--font-montserrat);
     color: var(--color-gray-100);

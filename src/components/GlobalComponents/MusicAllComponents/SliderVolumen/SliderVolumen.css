@@ -9,12 +9,12 @@
 }
 
 .content-vol-Slider{
-    height: 62px;
+    height: 45px;
 }
 .slider {
     /* slider */
     --slider-width: 6px;
-    --slider-height: 60px; /* Ajusta la altura según sea necesario */
+    --slider-height: 42px; /* Ajusta la altura según sea necesario */
     --slider-bg: rgb(82, 82, 82);
     --slider-border-radius: 999px;
     /* level */

@@ -4,14 +4,22 @@ import {
   Route,
   useNavigationType,
   useLocation,
+  BrowserRouter as Router,
 } from "react-router-dom";
 
 import PlataformArtist from "./components/AllSectionsPlataform/PlataformArtist/PlataformArtist";
 import MusicPlayerComponent from "./components/GlobalComponents/MusicAllComponents/MusicPlayerComponent/MusicPlayerComponent";
 import NavBarPlataform from "./components/NavBarPlataform/NavBarPlataform";
 import HeaderBarPlataform from "./components/HeaderBarPlataform/HeaderBarPlataform";
+import PlataformMyCollections from "./components/AllSectionsPlataform/PlataformMyCollections/PlataformMyCollections";
 
 
+//Providers
+import MusicProvider from "./components/providers/MusicProvider";
+import { PlayerProvider } from "./components/providers/PlayerProvider";
+import DropDownList from "./components/GlobalComponents/DropDownList/DropDownList";
+
+//https://owlcarousel2.github.io/OwlCarousel2/demos/basic.html
 
 function App() {
   const action = useNavigationType();
@@ -51,18 +59,32 @@ function App() {
 
   return (
     <>
-    <section className="app-content-navbar-header-allpageplataform">
-      <NavBarPlataform />
-      <section className="app-content-headerbar-allroutes">
-      <HeaderBarPlataform/>
-      <Routes>
-        <Route path="/" element={""}></Route>
-        <Route path="/profile" element={<PlataformArtist />} />
-      </Routes>
-      </section>
-    </section>
-    <MusicPlayerComponent />
-  </>
+     
+      <MusicProvider>
+        <PlayerProvider>
+          <HeaderBarPlataform />
+          <NavBarPlataform />
+          <main className="page-main">
+            <section className="app-content-headerbar-allroutes">
+            
+                <Routes>
+                  <Route
+                    path="/mycollections"
+                    element={<PlataformMyCollections />}
+                  />
+                  <Route path="/profile/*" element={<PlataformArtist />} />
+                  <Route path="/DropDown" element={<DropDownList />} />
+                </Routes>
+              
+            </section>
+          </main>
+          
+          <MusicPlayerComponent />
+        </PlayerProvider>
+      </MusicProvider>
+      
+    </>
   );
 }
+
 export default App;

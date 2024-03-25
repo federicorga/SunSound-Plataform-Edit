@@ -1,0 +1,131 @@
+.dropdown-popper{
+    z-index: 300;
+    position: absolute;
+    will-change: transform;
+    top: 0px;
+    left: 0px;
+    transform: translate3d(201px, 300px, 0px);
+    padding-right: 10px;
+    border-color: #e1dde4;
+    overflow-wrap: break-word;
+}
+
+.ul-dropdownlist{
+    margin: 0px;
+    padding: 0px;
+    border-color: #e1dde4;
+    overflow-wrap: break-word;
+    border-width: 0px;
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+.li-dropdownlist{
+    border-width: 0px;
+    border-style: solid;
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-color: #e1dde4;
+    overflow-wrap: break-word;
+}
+
+
+.gU4lg{
+    overflow: hidden;
+    position: relative;
+}
+
+.j_Ltn {
+    background-color: #F5F2F8;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .24);
+    padding: 8px 0;
+    width: 330px;}
+
+    .IBRGd {
+        position: relative;
+        transition-duration: .15s;
+        transition-property: left;
+        width: 330px;}
+
+
+        .KUMiD {
+            background-color: #F5F2F8;
+            display: block;
+            padding: 12px 0;
+            text-align: left;
+            transition-duration: .15s;
+            transition-property: background-color;
+            width: 100%;
+            line-height: inherit;
+            color: inherit;
+            cursor: pointer;
+            background: transparent;
+            text-transform: none;
+            overflow: visible;
+           
+            font-size: 100%;
+            border: 0;
+            margin: 0px;
+        }
+
+        .KUMiD:hover{
+            background-color:  #e1dde4;
+        }
+
+        .APyTE {
+            color: #6F6D71;
+            display: inline-block;
+            font-size: 24px;
+            height: 24px;
+            line-height: 24px;
+            margin: 0 0 0 16px;
+            transition-duration: .15s;
+            transition-property: color;
+            vertical-align: middle;
+            width: 24px;
+        }
+
+        ._G9BW {
+        color: #0f0d13;
+            display: inline-block;
+            font-size: 14px;
+            line-height: 24px;
+            margin: 0 16px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            transition-duration: .15s;
+            transition-property: color;
+            vertical-align: middle;
+            white-space: nowrap;
+            width: 258px;
+        }
+
+        .FoAMI {
+            width: 218px;
+        }
+
+        .a6xE1 {
+            padding-top: 4px;
+        }
+
+        .i0PtA {
+            float: right;
+            margin: 0 16px 0 0;
+            text-align: right;
+        }
+
+        .APyTE {
+            color: #6F6D71;
+            display: inline-block;
+            font-size: 24px;
+            height: 24px;
+            line-height: 24px;
+            margin: 0 0 0 16px;
+            transition-duration: .15s;
+            transition-property: color;
+            vertical-align: middle;
+            width: 24px;
+        }

@@ -9,7 +9,7 @@ function UserTitlePlataform({userVerify=true, countSongs=10, countListener=30000
 <>
     <section className='content-all-userTitle-plataform'>
     <div className='content-usertitle-img'>
-      <CardImgUser size='200px' imgUserurl={"rectangle-112@2x.png"}></CardImgUser>
+      <CardImgUser size='200px' imgUserurl={"/rectangle-112@2x.png"}></CardImgUser>
     </div>
     <div className='content-usertitle-name-icon-verify'>
     <div className='content-usertitle-name-icon'>

@@ -1,12 +1,13 @@
 
 .content-header-barplataform{
-       position: absolute;
+    position: absolute;
     top: 30px;
     right: 50px;
     display: flex;
     width: 70%;
     justify-content: space-between;
     align-items: center;
+    z-index: 99999;
 }
 .explorer{
     display: flex;
@@ -33,6 +34,7 @@
     height: 100%;
     left: 0;
     position: fixed;
+    z-index: 99999;
     top: 0;
     width: 100%;
     align-items: center;
