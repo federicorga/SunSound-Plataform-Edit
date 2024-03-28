@@ -12,15 +12,15 @@ function NavBarPlataform() {
     <nav className='navbar-plataform'>
       <section className='Logo-content-plataform'>
         <div className='div-content-logo-plataform-link'>
-        <img src="logo-color-1@2x.png" alt=""  width={60}/>
-        <img className='img-logo-tituloSund' src="logo-color-2@2x.png" alt="" width={90}/>
+          <img src="logo-color-1@2x.png" alt=""  width={60}/>
+          <img className='img-logo-tituloSund' src="logo-color-2@2x.png" alt="" width={90}/>
         </div>
         
       </section>
       <section className='content-buttons-navbar'>
-       <div className='div-content-img-button-navbar'>
-       <div className='div-img-ico-navbar'><IconHome></IconHome></div>
-       <Link to="/"> 
+        <div className='div-content-img-button-navbar'>
+        <div className='div-img-ico-navbar'><IconHome></IconHome></div>
+        <Link to="/"> 
       <ButtonNavBar textButton={'Home'}></ButtonNavBar>
       </Link>
       </div>

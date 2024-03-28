@@ -1,4 +1,4 @@
-import './LoginCardUsers.css'
+import './LoginCardUsers.css';
 import ButtonA from '../GlobalComponents/AllButtons/ButtonA/ButtonA';
 import IconCross from '../GlobalComponents/IconBtn/IconCross/IconCross';
 
@@ -14,7 +14,7 @@ function LoginCardUsers({onCloseForm, confirmlogin}) {
     <div className='button-close-logincardUsers'onClick={onCloseForm} ><IconCross></IconCross></div>
 
     <div className='title-logincardUserss-content'>
-        <h2 className='title-logincardUsers-h2'>¿Listo para unirte a SunSound?</h2>
+        <h2 className='title-logincardUsers-h2'>Listo para unirte a SunSound?</h2>
         
     </div>
     <div className='form-logincardUsers-content'>
