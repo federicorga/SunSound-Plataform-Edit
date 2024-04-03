@@ -1,6 +1,15 @@
-.secondNavBar-content{
-    padding-top: 20px;
+
+.content-allPrimary-secondNavBarPlataform{
     border-bottom: 1px solid #3a3839;
+}
+.content-all-secondNavBarPlataform{
+    padding-left: 44px;
+    
+}
+
+.secondNavBar-content-menu{
+    padding-top: 20px;
+   
     box-shadow: 0 2px 6px -4px rgba(25,25,34,.16);
     box-sizing: border-box;
     position: relative;
@@ -10,6 +19,7 @@
 .ul-secondNavbar{
     display: flex;
     margin: 0;
+    padding: 0;
 }
 
 
@@ -18,8 +28,9 @@
     display: inline-block;
     font-size: 16px;
     position: relative;
-    padding-left: 44px;
+   padding-right: 44px;
 }
+
 
 
 .a-secondNavbar{

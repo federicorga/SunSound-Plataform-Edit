@@ -26,7 +26,7 @@ function NavBarPlataform() {
       </div>
       <div className='div-content-img-button-navbar'>
       <div className='div-img-ico-navbar'><IconColeccion></IconColeccion></div>
-      <Link to="/mycollections"> 
+      <Link to="/profile/collection"> 
       <ButtonNavBar textButton={'Tu colección'}></ButtonNavBar>
       </Link>
       </div>
@@ -46,7 +46,7 @@ function NavBarPlataform() {
       
       <div className='div-content-img-button-navbar'>
         <div className='div-img-ico-navbar'><IconProfile></IconProfile></div>
-      <Link to="/profile">
+      <Link to="/profile/releases">
       <ButtonNavBar textButton={'Perfil'}></ButtonNavBar>
       </Link>
       </div>

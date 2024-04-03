@@ -3,15 +3,11 @@
 .div-card-img-music{
     width: 214px;
     height: 204px;
-    margin: 8px;
+ 
     border-radius: var(--br-6xl);
     cursor: pointer;
 }
 
-.div-card-img-music:hover{
-    box-shadow: 0 0 5px #200f2a, 0 0 10px #8f00ff, 0 0 15px #8f00ff;
-    transition: .3s ease-in-out;
-}
 
 .div-card-img-music img{
     width: 100%;

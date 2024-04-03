@@ -1,0 +1,32 @@
+
+.PostElement-contentallPost{
+    display: flex;
+    margin-top: 30px;
+    padding-right: 50px;
+    width: 800px;
+}
+.card-user-postElement{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.content-user-verif-textinfomusic{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.username-verf-PostElement{
+    display: flex;
+    align-items: center;
+}
+
+
+.text-infomusic-PostElement p{
+    font-size: 1rem;
+    color:#f1f1f1;
+    font-family: var(--font-montserrat);
+    font-weight: 100;
+}

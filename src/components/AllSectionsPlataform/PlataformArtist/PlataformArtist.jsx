@@ -11,6 +11,9 @@ import SecondNavBarPlataform from "../../SecondNavBarPlataform/SecondNavBarPlata
 
 import ReleasesArtis from "./ReleasesArtis/ReleasesArtis";
 import { Route, Routes } from "react-router-dom";
+import CollectionsUser from "./CollectionsUser/CollectionsUser";
+import PlayListUser from "./PlayListUser/PlayListUser";
+import PostSectionUser from "./PostSectionUser/PostSectionUser";
 
 function PlataformArtist() {
   const [showForm, setShowForm] = useState(false);
@@ -31,8 +34,6 @@ function PlataformArtist() {
           <div className="plataform-usertitleplataform-content">
 
           <UserTitlePlataform></UserTitlePlataform>
-        
-          
           </div>
         </div>
       </section>
@@ -45,6 +46,10 @@ function PlataformArtist() {
         <section className="SectionB">
         <Routes>
         <Route path="releases" element={<ReleasesArtis funcionActiveCard={CardAddMusicClickActive}></ReleasesArtis>}></Route>
+        <Route path="posts" element={<PostSectionUser></PostSectionUser>}></Route>
+        <Route path="collection" element={<CollectionsUser></CollectionsUser>}></Route>
+         <Route path="playlist" element={<PlayListUser></PlayListUser>}></Route>
+         
          </Routes>
 
           <section className="SectionB-B">

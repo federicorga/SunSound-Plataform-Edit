@@ -1,0 +1,225 @@
+/* CarrouselGeneral.css */
+.link-plain,
+.link-plain:hover,
+.link-plain:active,
+.link-plain:visited {
+    text-decoration: none;
+}
+
+.link-plain-f,
+.link-plain-f:hover,
+.link-plain-f:active,
+.link-plain-f:focus,
+.link-plain-f:visited {
+    color: initial;
+    text-decoration: none !important;
+}
+
+.div-content-text-buttons-carrousel {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conent-buttons-carrousel{
+    display: flex;
+}
+
+#va_container {
+    position: relative;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.va-thumbnail {
+    border-radius: 5px;
+    border: 0px;
+    max-width: 100%;
+}
+
+.va-title {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.va-carrousel-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.va-carrousel-flexbox .va-card {
+    width: auto;
+    flex: 0 0 auto;
+    padding-left: 15px;
+}
+
+.va-carrousel-flexbox .va-card:last-child {
+    margin-right: 15px;
+}
+
+.va-carrousel-flexbox .va-card:last-child::after {
+    content: ' ';
+    display: inline-block;
+}
+
+.va-card {
+    width: 100px;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+}
+
+.va-card:hover {
+    user-select: none;
+    outline: none;
+}
+
+.va-card a {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .va-card {
+        width: 130px;
+    }
+}
+
+.va-carrousel,
+.va-carrousel-flexbox {
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+.va-carrousel::-webkit-scrollbar,
+.va-carrousel-flexbox::-webkit-scrollbar {
+    display: none;
+}
+
+.va-carrousel-title {
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    padding-bottom: 8px;
+    margin-bottom: 18px;
+}
+
+.va-title {
+    margin: 0;
+    padding: 0;
+    font-size: var(--font-size-base);
+    line-height: 160%;
+    font-family: var(--font-montserrat);
+    color: var(--color-white);
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+    .va-title {
+        font-size: 13px;
+    }
+}
+
+.va-start-from {
+    margin: 0;
+    font-size: var(--font-size-rsr);
+    line-height: 1;
+   
+    color: var(--color-gray-100);
+    text-align: left;
+}
+
+.va-points {
+    font-size: 12px;
+    font-weight: 700;
+    display: inline-block;
+    color: white;
+}
+
+.deals-paddle {
+    height: 38px;
+    width: 38px;
+    color: white;
+    background-color: #00000089;
+    border-radius: 50%;
+    border: 0px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0;
+    margin: 0 2px;
+    transition: 0.2s;
+}
+
+.deals-paddle:hover{
+    
+    background-color: #3A393D;
+}
+
+.deals-paddle svg{
+    color: white;
+    width: 17px;
+    height: 100%;
+}
+
+.deals-paddle:focus {
+    outline: none;
+}
+
+.deals-paddle:active {
+    border-style: solid;
+    outline: none;
+    user-select: none;
+}
+
+
+@media (min-width: 768px) {
+    .other-game-button {
+        width: 300px;
+    }
+}
+
+.deals-scroll-left {
+    top: 0;
+    left: 5px;
+    bottom: 0;
+}
+
+.deals-scroll-right {
+    top: 0;
+    bottom: 0;
+    right: 5px;
+}
+
+.va-carrousel-section {
+    width: 100%;
+    padding: 0px;
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .va-carrousel-section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.va-whitewrap {
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.va-seeall {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    border-top: 1px solid #dddddd;
+    text-align: center;
+    padding: 10px;
+}

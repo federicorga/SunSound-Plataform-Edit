@@ -1,6 +1,8 @@
+import './ReleasesArtis.css'
 import RectangleContent from '../../../GlobalComponents/RectangleContent/RectangleContent';
 import LatestReleasesArtist from '../../../LatestReleasesArtist/LatestReleasesArtist';
 import CardImgMusic from '../../../GlobalComponents/AllCards/CardImgMusic/CardImgMusic';
+import MusicCarPlayerComponent from '../../../GlobalComponents/MusicAllComponents/MusicCardPlayerComponent/MusicCarPlayerComponent';
 
 function ReleasesArtis({funcionActiveCard}) {
 
@@ -16,32 +18,43 @@ function ReleasesArtis({funcionActiveCard}) {
               height={"60%"}
             >
               <div className="plataform-content-cardmusic">
-                <div onClick={funcionActiveCard}>
+                <div className='button-add-music-releasesArtis' onClick={funcionActiveCard}>
                   <CardImgMusic
                     size={"214px"}
                     imgSrc={"/Masimg.png"}
                   ></CardImgMusic>
                 </div>
-                <CardImgMusic
+                <MusicCarPlayerComponent
                   size={"214px"}
                   imgSrc={"/img/NFTs/IMG-20231218-WA0029.jpg"}
-                ></CardImgMusic>
-                <CardImgMusic
+                  tileSubActive={true}
+                ></MusicCarPlayerComponent>
+                <MusicCarPlayerComponent
                   size={"214px"}
                   imgSrc={"/img/NFTs/IMG-20231218-WA0022.jpg"}
-                ></CardImgMusic>
-                <CardImgMusic
+                  tileSubActive={true}
+                ></MusicCarPlayerComponent>
+                <MusicCarPlayerComponent
                   size={"214px"}
                   imgSrc={"/rectangle-67@2x.png"}
-                ></CardImgMusic>
-                <CardImgMusic
+                  tileSubActive={true}
+                ></MusicCarPlayerComponent>
+                <MusicCarPlayerComponent index={1}
                   size={"214px"}
                   imgSrc={"/rectangle-117@2x.png"}
-                ></CardImgMusic>
-                <CardImgMusic
+                  tileSubActive={true}
+                  titleTheme={"En el patio (Original Mix)"}
+                  subitileTheme={"Arakaki"}
+                ></MusicCarPlayerComponent>
+                
+                <MusicCarPlayerComponent index={3}
                   size={"214px"}
                   imgSrc={"/rectangle-119@2x.png"}
-                ></CardImgMusic>
+                  tileSubActive={true}
+                  titleTheme={"Coda"}
+                  subitileTheme={"Taylorythm"}
+                ></MusicCarPlayerComponent>
+               
               </div>
             </RectangleContent>
           </section>

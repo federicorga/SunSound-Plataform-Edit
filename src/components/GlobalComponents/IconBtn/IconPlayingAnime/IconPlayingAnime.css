@@ -1,0 +1,15 @@
+.content-IconPlayingAnime{
+margin: 0;
+height: 100%;
+}
+
+.svg-IconPlayingAnime {
+  margin: 0;
+}
+.rect-IconPlayingAnime {
+    background-color: none;
+    fill:transparent;
+    stroke: white;
+    stroke-width: 3;
+
+}

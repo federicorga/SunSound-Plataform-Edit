@@ -1,0 +1,17 @@
+.plataform-content-cardmusic{
+    height: 600px;
+    align-content: space-between;
+    width: 100%;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    display: grid;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+}
+
+.button-add-music-releasesArtis div:hover{
+    box-shadow: 0 0 5px #200f2a, 0 0 10px #8f00ff, 0 0 15px #8f00ff;
+    transition: .3s ease-in-out;
+}

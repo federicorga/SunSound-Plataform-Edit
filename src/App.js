@@ -17,7 +17,7 @@ import PlataformMyCollections from "./components/AllSectionsPlataform/PlataformM
 //Providers
 import MusicProvider from "./components/providers/MusicProvider";
 import { PlayerProvider } from "./components/providers/PlayerProvider";
-import DropDownList from "./components/GlobalComponents/DropDownList/DropDownList";
+import SectionInicioPlataform from "./components/AllSectionsPlataform/SectionInicioPlataform/SectionInicioPlataform";
 
 //https://owlcarousel2.github.io/OwlCarousel2/demos/basic.html
 
@@ -68,12 +68,13 @@ function App() {
             <section className="app-content-headerbar-allroutes">
             
                 <Routes>
+                  <Route path="/" element={<SectionInicioPlataform/>}></Route>
                   <Route
                     path="/mycollections"
-                    element={<PlataformMyCollections />}
-                  />
+                    element={<PlataformMyCollections />}/>
                   <Route path="/profile/*" element={<PlataformArtist />} />
-                  <Route path="/DropDown" element={<DropDownList />} />
+           
+
                 </Routes>
               
             </section>

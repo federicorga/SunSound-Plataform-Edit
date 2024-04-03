@@ -1,12 +1,12 @@
 import './ButtonA.css'
 
-function ButtonA({text,colorText,sizeText,width, height ,colorButton ='var(--color-blueviolet-100)',backgroundConfirm=true }) {
+function ButtonA({text,colorText,sizeText,width, height ,colorButton ='var(--color-blueviolet-100)',borderColorButton,backgroundConfirm=true }) {
 
     const buttonStyle={
         width:width,
         height:height,
         backgroundColor:backgroundConfirm?colorButton: '',
-        borderColor:colorButton,
+        border:`1px solid ${borderColorButton?borderColorButton:colorButton}`,
     }
 
     const textStyle={

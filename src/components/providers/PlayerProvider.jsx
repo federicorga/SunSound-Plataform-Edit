@@ -97,7 +97,7 @@ export function PlayerProvider({ children }) {
       audio.removeEventListener('ended', handleSongEnd);
       audio.pause();
     };
-  }, [currentSongIndex, playlist]);
+  }, [currentSongIndex]);
 
   const handleVolumeChange = (newVolume) => {
     setVolume(newVolume);
@@ -109,12 +109,26 @@ export function PlayerProvider({ children }) {
 
     if (isPlaying) {
       audio.pause();
+      setIsPlaying(false);
     } else {
       audio.play();
+      setIsPlaying(true);
     }
 
     setIsPlaying(!isPlaying);
   };
+
+  const handlePlay=()=>{
+    const audio = audioRef.current;
+    audio.play();
+    setIsPlaying(true);
+  }
+
+  const handlePause=()=>{
+    const audio = audioRef.current;
+    audio.pause();
+    setIsPlaying(false)
+  }
 
   const handleProgressBarClick = (event) => {
     const audio = audioRef.current;
@@ -183,6 +197,8 @@ export function PlayerProvider({ children }) {
     handleToggleShuffle,
     handleVolumeChange,
     handlePlayPause,
+    handlePlay,
+    handlePause,
     handleProgressBarClick,
     handleDragStart,
     handleDragEnd,

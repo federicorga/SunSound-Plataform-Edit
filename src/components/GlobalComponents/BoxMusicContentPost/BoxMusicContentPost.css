@@ -1,0 +1,68 @@
+.section-elementall-BoxMusicContentPost{
+    background-color: rgb(31, 31, 31);
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.content-imgcardMusic-titlesong-nameArtist-BoxMusicContentPost{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.content-titles-and-buttons-BoxMusicContentPost{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.div-title-artistname-boxMusicContentPost{
+    margin-left: 30px;
+}
+
+.title-song-boxMusicContentPost{
+    margin: 0;
+    padding: 0;
+    font-size: var(--font-size-base);
+    line-height: 160%;
+    font-family: var(--font-montserrat);
+    color: var(--color-white);
+    text-align: left;
+}
+
+.nameArtist-song-boxMusicContentPost{
+    margin: 0;
+    padding: 0;
+    font-size: var(--font-size-rsr);
+    line-height: 160%;
+    font-family: var(--font-montserrat);
+    color: var(--color-gray-100);
+    text-align: left;
+}
+
+.content-buttons-colect-playmusic-BoxMusicContentPost{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttonColect-BoxMusicContentPost{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.buttonPlay-BoxMusicContentPost{
+    color: white;
+    width: 50px;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.buttonPlay-BoxMusicContentPost svg{
+    width: 100%;
+    height: 40px;
+    
+}

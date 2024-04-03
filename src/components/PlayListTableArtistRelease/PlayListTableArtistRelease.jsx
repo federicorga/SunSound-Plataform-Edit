@@ -88,7 +88,7 @@ const formatDuration = (duration) => {
             <td className="td-playlistArtisRelease"  onClick={()=> selectSong(index)}>
               
               <CardMusicTheme
-            
+                index={index}
                 showHeartButton={false}
                 sizeCardMusic={'60px'}
                 imgSrc={song.img}

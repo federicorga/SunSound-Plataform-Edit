@@ -1,15 +1,16 @@
 import React, { useMemo} from 'react';
 import IconHeartLike from '../../IconBtn/IconHeartLike/IconHeartLike';
-import CardImgMusic from '../CardImgMusic/CardImgMusic';
+import MusicCarPlayerComponent from '../../MusicAllComponents/MusicCardPlayerComponent/MusicCarPlayerComponent';
+
 import './CardMusicTheme.css';
 
 
-function CardMusicTheme({ sizeCardMusic, imgSrc, titleTheme ='unknown',titleArtist='unknown',showHeartButton = true }) {
+function CardMusicTheme({ sizeCardMusic, imgSrc, titleTheme ='unknown',titleArtist='unknown',showHeartButton = true, index }) {
 
 
   return (
     <>
-      <CardImgMusic size={sizeCardMusic} imgSrc={imgSrc}></CardImgMusic>
+      <MusicCarPlayerComponent sizeButtons='30px' size={sizeCardMusic} imgSrc={imgSrc} index={index}/>
       <div className='content-title-heart-musicplayer'>
           <div className='content-title-subititle-musicplayer'>
             <h2 className='name-teme-song-musicplayer'>{titleTheme}</h2>
