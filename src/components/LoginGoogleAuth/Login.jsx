@@ -19,13 +19,18 @@ const Login = ({ setAuth }) => {
     const firebaseAuth = getAuth(app);
     const provider = new GoogleAuthProvider();
 
-    const navigate = useNavigate();
+    //const navigate = useNavigate();
 
-    const [{ user }, dispatch] = useStateValue()
+    const [{ user }, dispatch] = useStateValue() //pasarlo a un contexto y desde este englobar a toda la app
 
     const loginWithGoogle = async () => {
         await signInWithPopup(firebaseAuth, provider).then((userCred) => {
             if (userCred) {
+
+                //actualizar el contexto padre para que userLoged = true
+
+
+
                 setAuth(true);
                 window.localStorage.setItem("auth", "true");
 
@@ -34,25 +39,25 @@ const Login = ({ setAuth }) => {
                         userCred.getIdToken().then((token) => {
                             window.localStorage.setItem("auth", "true");
                             validateUser(token).then((data) => {
-                            dispatch({
-                                type: actionType.SET_USER,
-                                user: data,
-                            });
+                                dispatch({
+                                    type: actionType.SET_USER,
+                                    user: data,
+                                });
                             });
                         });
                         navigate("/", { replace: true });
-                        } else {
+                    } else {
                         setAuth(false);
                         dispatch({
                             type: actionType.SET_USER,
                             user: null,
                         });
                         navigate("/login");
-                        }
-                    });
                     }
                 });
-            };
+            }
+        });
+    };
 
     useEffect(() => {
         if (window.localStorage.getItem("auth") === "true") {
