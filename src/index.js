@@ -5,6 +5,8 @@ import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 import "./global.css";
 
+import reportWebVitals from '../src/components/ReportWebVitals/reportWebVitals';
+
 const container = document.getElementById("root");
 const root = createRoot(container);
 
@@ -14,3 +16,4 @@ root.render(
   </BrowserRouter>
 );
 
+reportWebVitals();
