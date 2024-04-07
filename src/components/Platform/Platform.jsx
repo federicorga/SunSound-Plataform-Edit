@@ -7,6 +7,9 @@ import {
     BrowserRouter as Router,
 } from "react-router-dom";
 
+
+
+
 import PlataformArtist from "../AllSectionsPlataform/PlataformArtist/PlataformArtist";
 import MusicPlayerComponent from "../GlobalComponents/MusicAllComponents/MusicPlayerComponent/MusicPlayerComponent";
 import NavBarPlataform from "../NavBarPlataform/NavBarPlataform";
@@ -15,6 +18,8 @@ import PlataformMyCollections from "../AllSectionsPlataform/PlataformMyCollectio
 
 
 //Providers
+import AppWallet from "../providers/AppWalletProvider";
+
 import MusicProvider from "../providers/MusicProvider";
 import { PlayerProvider } from "../providers/PlayerProvider";
 import DropDownList from "../GlobalComponents/DropDownList/DropDownList";
@@ -59,28 +64,31 @@ const Platform = () => {
     }, [pathname]);
 
     return (
-        <MusicProvider>
-            <PlayerProvider>
-                <HeaderBarPlataform />
-                <NavBarPlataform />
-                <main className="page-main">
-                    <section className="app-content-headerbar-allroutes">
 
-                        <Routes>
-                            <Route
-                                path="/mycollections"
-                                element={<PlataformMyCollections />}
-                            />
-                            <Route path="/profile/*" element={<PlataformArtist />} />
-                            <Route path="/DropDown" element={<DropDownList />} />
-                        </Routes>
+        <AppWallet>
+            <MusicProvider>
+                <PlayerProvider>
+                    <HeaderBarPlataform />
+                    <NavBarPlataform />
+                    <main className="page-main">
+                        <section className="app-content-headerbar-allroutes">
 
-                    </section>
-                </main>
+                            <Routes>
+                                <Route
+                                    path="/mycollections"
+                                    element={<PlataformMyCollections />}
+                                />
+                                <Route path="/profile/*" element={<PlataformArtist />} />
+                                <Route path="/DropDown" element={<DropDownList />} />
+                            </Routes>
 
-                <MusicPlayerComponent />
-            </PlayerProvider>
-        </MusicProvider>
+                        </section>
+                    </main>
+
+                    <MusicPlayerComponent />
+                </PlayerProvider>
+            </MusicProvider>
+        </AppWallet>
     )
 }
 

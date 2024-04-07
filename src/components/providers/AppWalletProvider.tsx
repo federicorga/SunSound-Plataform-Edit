@@ -7,9 +7,15 @@ import {
     SolflareWalletAdapter,
     TorusWalletAdapter
 } from "@solana/wallet-adapter-wallets";
-import React, { FC, ReactNode, useMemo } from 'react';
-import './App.css';
+import React, { FC, ReactNode, useMemo, useContext } from 'react';
+import './global.css';
 import '@solana/wallet-adapter-react-ui/styles.css';
+
+//const appWalletContext = React.createContext();
+
+//export function useAppWalletContext(){ //la funcion ejecuta el useContext
+//    return useContext(appWalletContext);
+//}
 
 function appWallet() {
     return (
@@ -19,7 +25,7 @@ function appWallet() {
     );
 }
 
-export default appWallet;
+
 
 const Context: FC<{ children: ReactNode }> = ({ children }) => {
     // const network = WalletAdapterNetwork.Devnet;
@@ -43,7 +49,7 @@ const Context: FC<{ children: ReactNode }> = ({ children }) => {
     )
 }
 
-//Conection to wallet button / boton de conexion con la wallet.
+//Conection wallet button / boton de conexion con la wallet.
 
 const Content: FC = () => {
     return (
@@ -52,3 +58,19 @@ const Content: FC = () => {
         </div>
     );
 }
+
+
+
+export default appWallet;
+
+
+
+/*
+
+return (
+    <appWalletContext.Provider value={Context}>
+        {children}
+    </appWalletContext.Provider>
+);
+
+*/
