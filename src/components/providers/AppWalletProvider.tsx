@@ -11,11 +11,11 @@ import React, { FC, ReactNode, useMemo, useContext } from 'react';
 import './global.css';
 import '@solana/wallet-adapter-react-ui/styles.css';
 
-//const appWalletContext = React.createContext();
+const appWalletContext = React.createContext();
 
-//export function useAppWalletContext(){ //la funcion ejecuta el useContext
-//    return useContext(appWalletContext);
-//}
+export function useAppWalletContext(){ //la funcion ejecuta el useContext
+    return useContext(appWalletContext);
+}
 
 function appWallet() {
     return (
@@ -30,7 +30,7 @@ function appWallet() {
 const Context: FC<{ children: ReactNode }> = ({ children }) => {
     // const network = WalletAdapterNetwork.Devnet;
     // const endpoint = useMemo(() => clusterApiUrl(network), [network])
-    const endpoint = "localhost:8899"; // local cluster override
+    const endpoint = "localhost:3000"; // local cluster override
 
     const wallets = useMemo(() => [
         new PhantomWalletAdapter(),

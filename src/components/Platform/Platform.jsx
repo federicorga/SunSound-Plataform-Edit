@@ -18,7 +18,7 @@ import PlataformMyCollections from "../AllSectionsPlataform/PlataformMyCollectio
 
 
 //Providers
-import AppWallet from "../providers/AppWalletProvider";
+import AppWalletProvider from "../providers/AppWalletProvider";
 
 import MusicProvider from "../providers/MusicProvider";
 import { PlayerProvider } from "../providers/PlayerProvider";
@@ -65,7 +65,7 @@ const Platform = () => {
 
     return (
 
-        <AppWallet>
+        <AppWalletProvider>
             <MusicProvider>
                 <PlayerProvider>
                     <HeaderBarPlataform />
@@ -88,7 +88,7 @@ const Platform = () => {
                     <MusicPlayerComponent />
                 </PlayerProvider>
             </MusicProvider>
-        </AppWallet>
+        </AppWalletProvider>
     )
 }
 
