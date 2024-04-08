@@ -36,7 +36,7 @@ function ButtonActiveWallet() {
 const AppWalletProvider = ({ children }) => {
     // const network = WalletAdapterNetwork.Devnet;
     // const endpoint = useMemo(() => clusterApiUrl(network), [network])
-    const endpoint = "http://localhost:3000"; // local cluster override
+    const endpoint = process.env.REACT_APP_API_ENDPOINT || "http://localhost:3000";// local cluster override
 
     const wallets = useMemo(() => [
         new PhantomWalletAdapter(),
