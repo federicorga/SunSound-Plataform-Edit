@@ -59,31 +59,31 @@ function App() {
 
   return (
     <>
-     
+
+      
       <MusicProvider>
+
         <PlayerProvider>
+
           <HeaderBarPlataform />
           <NavBarPlataform />
           <main className="page-main">
             <section className="app-content-headerbar-allroutes">
-            
                 <Routes>
                   <Route path="/" element={<SectionInicioPlataform/>}></Route>
                   <Route
                     path="/mycollections"
                     element={<PlataformMyCollections />}/>
                   <Route path="/profile/*" element={<PlataformArtist />} />
-           
-
                 </Routes>
-              
             </section>
-          </main>
-          
+          </main>  
           <MusicPlayerComponent />
+
         </PlayerProvider>
+
       </MusicProvider>
-      
+   
     </>
   );
 }

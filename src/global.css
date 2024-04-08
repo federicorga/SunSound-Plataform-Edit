@@ -95,3 +95,41 @@ a{
 .app-content-headerbar-allroutes{
   width: 100%;
 }
+
+
+.page-main{
+  margin-left: var(--layout-sidebar-width);
+  min-width: 770px;
+  position: relative;
+}
+
+.app-content-navbar-header-allpageplataform{
+  display: flex;
+  width: 100%;
+}
+
+
+.app-content-headerbar-allroutes{
+  width: 100%;
+}
+
+.wallet-adapter-modal{
+  z-index: 999999999;
+}
+
+.wallet-adapter-button-trigger{
+  background-color: rgb(72, 39, 142);
+  
+  width: auto !important;
+
+}
+
+
+.wallet-adapter-button-trigger{    
+  border-radius: var(--br-3xs);
+  width: 112px;
+  height: 39px;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
