@@ -1,0 +1,76 @@
+.content-button-A{
+
+  background: url("/public/rectangle-2@2x.png");
+  display: flex;
+  height: 50px;
+  width: 10rem;
+  border-radius: var(--br-20xl);
+  object-fit: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-family: inherit;
+  text-align: center;
+  align-items: center;
+   
+  
+}
+
+
+.content-button-A:hover{
+    transition: 0.5s;
+   
+    box-shadow: 0 0 15px rgb(42 0 103), 0 0 15px rgb(94 53 141), 0 0 15px rgb(225 152 249);
+    width: 12rem;
+}
+
+.content-button-A:active{
+    transition: 0.5s;
+    transform: scale(0.9);
+
+}
+
+.content-button-A h3{
+  position: relative;
+  left: 2.9rem;
+  font-size: var(--font-size-6xl);
+}
+
+.arrow-button-A{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+}
+
+.content-button-A  svg{    
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 32px;
+  padding-left: 10px;
+  transform: translateX(100%);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+  .content-button-A:hover svg{
+   
+    opacity: 1;
+    transform: translate(150%);
+  }
+  
+  .text-button-A {
+    margin: 0;
+    font-size: var(--font-size-6xl);
+    font-weight: 500;
+    font-family: inherit;
+    text-align: center;
+    display: inline-block;
+    width: 103px;
+    height: 32px;
+  }

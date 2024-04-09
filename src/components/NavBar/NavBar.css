@@ -1,0 +1,34 @@
+header{
+    display: flex;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.9rem;
+    padding-bottom: 0.4rem;
+  
+}
+
+.scrolled {
+    background-color: #00000094;
+    z-index: 999;
+}
+.sun {
+    font-weight: 500;
+  }
+  .sound {
+    font-weight: 300;
+  }
+  .sunsound {
+    padding-left: 100px;
+    width: 130px;
+    left: 120px;
+    font-size: var(--font-size-xl);
+  }
+
+  .content-button-NavBar{
+    width: 200px;
+    padding-right: 50px;
+}
+  

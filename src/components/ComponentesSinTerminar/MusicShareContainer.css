@@ -1,0 +1,56 @@
+.tu-msica {
+  color: var(--color-white);
+}
+.comparte-tu-msica-container,
+.sube-tus-creaciones {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.comparte-tu-msica-container {
+  align-self: stretch;
+  position: relative;
+}
+.sube-tus-creaciones {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 508px;
+  height: 180px;
+}
+.game-iconssound-waves4 {
+  position: absolute;
+  top: 51.1px;
+  left: 325.6px;
+  width: 81.1px;
+  height: 45.8px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.frame1 {
+  align-self: stretch;
+  position: relative;
+  height: 180px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+}
+.texto-inicio4 {
+  position: absolute;
+  top: 3174px;
+  left: 202px;
+  width: 508px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 28px 0;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-blueviolet-100);
+  font-family: var(--font-montserrat);
+}

@@ -1,0 +1,100 @@
+.content-card-start,
+.content-card-start * {
+  box-sizing: border-box;
+}
+.content-card-start {
+    top: 2443px;
+    width: 285px;
+    height: 395px;
+    border-radius: 30px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.escucha {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 25px;
+  line-height: 160%;
+  font-weight: 600;
+  width: 37.19%;
+
+  height: 10.13%;
+}
+
+.content-card-start,
+.content-card-start * {
+  box-sizing: border-box;
+}
+
+.content-card-start {
+  width: 285px;
+  height: 395px;
+
+  overflow: hidden; /* Añadido para evitar el desbordamiento de las sombras */
+}
+
+
+
+
+.content-card-start {
+  box-sizing: border-box;
+  width: 285px;
+  height: 395px;
+  border-radius: 30px;
+  overflow: hidden; /* Añadido para evitar el desbordamiento de las sombras */
+  background: url('../../../public/rectangle-4@2x.png');
+  background-size: cover;
+}
+
+.content-card-start:hover{
+   transition: ease-in-out 0.3s;
+    box-shadow: 0 0 5px rgb(0 255 255), 0 0 10px rgb(255 214 0 / 90%), 0 0 15px rgb(250 0 255), 0 0 20px rgb(219 0 255 / 98%), 0 0 25px rgb(0 240 255), 0 0 30px rgb(250 255 0 / 8);
+}
+
+
+
+/* ... Tus estilos de ellipse aquí ... */
+
+.Card-div-landing-escucha {
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.5);
+  border-width: 1px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: box-shadow 0.3s ease; /* Transición suave para el efecto hover */
+
+}
+
+/* Estilo inicial sin hover */
+.Card-div-landing-escucha:hover {
+  box-shadow: 
+    0 0 15px rgba(0, 255, 255, 0.3),  
+    0 0 15px rgba(255, 214, 0, 0.3),  
+    0 0 15px rgba(250, 0, 255, 0.3),   
+    0 0 15px rgba(219, 0, 255, 0.3),   
+    0 0 15px rgba(0, 240, 255, 0.3),  
+    0 0 15px rgba(250, 255, 0, 0.3);   
+}
+
+
+
+.Card-div-landing-escuchaescucha h2 {
+  color: white;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 25px;
+  line-height: 160%;
+  font-weight: 600;
+  padding-left: 15px;
+
+  height: 10.13%;
+}
+
+/* ... Tu JSX/HTML aquí ... */
+
+
+  
+

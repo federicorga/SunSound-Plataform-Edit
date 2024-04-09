@@ -1,0 +1,68 @@
+.polygon-icon,
+.triangulo-glass-child,
+.triangulo-glass-child1,
+.triangulo-glass-inner,
+.triangulo-glass-item {
+  position: absolute;
+  height: 84.14%;
+  width: 80.68%;
+  top: -27.07%;
+  right: 128.85%;
+  bottom: 42.94%;
+  left: -109.53%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  transform: rotate(-120deg);
+}
+.polygon-icon,
+.triangulo-glass-child1,
+.triangulo-glass-inner,
+.triangulo-glass-item {
+  height: 55.88%;
+  width: 53.58%;
+  top: -17.23%;
+  right: 154.01%;
+  bottom: 61.35%;
+  left: -107.6%;
+}
+.polygon-icon,
+.triangulo-glass-child1,
+.triangulo-glass-inner {
+  height: 39.71%;
+  width: 38.08%;
+  top: -6.28%;
+  right: 133.07%;
+  bottom: 66.57%;
+  left: -71.15%;
+}
+.polygon-icon,
+.triangulo-glass-child1 {
+  height: 31.71%;
+  width: 30.41%;
+  top: 15.01%;
+  right: 154.9%;
+  bottom: 53.28%;
+  left: -85.31%;
+}
+.triangulo-glass-child1 {
+  height: 84.14%;
+  width: 80.68%;
+  top: -20.46%;
+  right: 127.07%;
+  bottom: 36.32%;
+  left: -107.75%;
+  border-radius: var(--br-3xs);
+}
+.triangulo-glass {
+  position: absolute;
+  top: 3796.4px;
+  left: 773.1px;
+  width: 957px;
+  height: 957px;
+  transform: rotate(120deg);
+  transform-origin: 0 0;
+  opacity: 0.8;
+  mix-blend-mode: linear-dodge;
+}

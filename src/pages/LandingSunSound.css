@@ -1,0 +1,517 @@
+.group-icon,
+.triangulos-background-child,
+.triangulos-background-child1,
+.triangulos-background-inner,
+.triangulos-background-item {
+  position: absolute;
+  height: 21.72%;
+  width: 46.86%;
+  top: 17.29%;
+  right: 53.14%;
+  bottom: 60.99%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0.2;
+  mix-blend-mode: linear-dodge;
+}
+.group-icon,
+.triangulos-background-child1,
+.triangulos-background-inner,
+.triangulos-background-item {
+  top: 0;
+  right: 0;
+  bottom: 78.28%;
+  left: 53.14%;
+}
+.group-icon,
+.triangulos-background-child1,
+.triangulos-background-inner {
+  height: 18.45%;
+  width: 39.82%;
+  top: 49.82%;
+  right: 54.26%;
+  bottom: 31.72%;
+  left: 5.92%;
+}
+.group-icon,
+.triangulos-background-child1 {
+  height: 20.68%;
+  width: 44.61%;
+  top: 65.37%;
+  right: 7.81%;
+  bottom: 13.96%;
+  left: 47.58%;
+}
+.triangulos-background-child1 {
+  height: 20.45%;
+  width: 48.14%;
+  top: 79.55%;
+  right: 50.89%;
+  bottom: 0;
+  left: 0.97%;
+}
+.triangulos-background {
+  position: absolute;
+  height: 45.29%;
+  width: 136.04%;
+  top: 40.14%;
+  right: -19.86%;
+  bottom: 14.57%;
+  left: -16.18%;
+}
+
+.landing-sunsound-item {
+
+  background-image: url(/public/rectangle-39@3x.gif);
+  position: absolute;
+  top: 7307px;
+  width: 100%;
+  height: 839px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  background-position: center;
+}
+.triangulos-background-child2,
+.triangulos-background-child3 {
+  position: absolute;
+  height: 18.54%;
+  width: 46.86%;
+  top: 14.76%;
+  right: 53.14%;
+  bottom: 66.7%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0.2;
+  mix-blend-mode: linear-dodge;
+}
+.triangulos-background-child3 {
+  top: 0;
+  right: 0;
+  bottom: 81.46%;
+  left: 53.14%;
+}
+.triangulos-background-child4,
+.triangulos-background-child5,
+.triangulos-background-child6,
+.triangulos-background-child7 {
+  position: absolute;
+  height: 15.75%;
+  width: 39.82%;
+  top: 42.53%;
+  right: 54.26%;
+  bottom: 41.72%;
+  left: 5.92%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0.2;
+  mix-blend-mode: linear-dodge;
+}
+
+.Section-Cards-Tips-Planet{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 51rem;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  top: -117px;
+  align-content: space-between;
+
+}
+.triangulos-background-child5,
+.triangulos-background-child6,
+.triangulos-background-child7 {
+  height: 17.65%;
+  width: 44.61%;
+  top: 55.8%;
+  right: 7.81%;
+  bottom: 26.55%;
+  left: 47.58%;
+}
+.triangulos-background-child6,
+.triangulos-background-child7 {
+  height: 17.46%;
+  width: 48.14%;
+  top: 67.9%;
+  right: 50.89%;
+  bottom: 14.64%;
+  left: 0.97%;
+}
+.triangulos-background-child7 {
+  height: 17.55%;
+  width: 47.12%;
+  top: 82.45%;
+  right: 9.7%;
+  bottom: 0;
+  left: 43.19%;
+}
+.triangulos-background1 {
+  position: absolute;
+  height: 53.05%;
+  width: 136.04%;
+  top: 8.32%;
+  right: -26.74%;
+  bottom: 38.62%;
+  left: -9.31%;
+}
+.peakpx-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 926px;
+  background-image: url(/public/peakpx\ 1.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.donde-la-msica,
+.nete-a-la {
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+}
+.nete-a-la {
+  margin: 0;
+  top: 360px;
+  left: 543px;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: inherit;
+  width: 354px;
+}
+.donde-la-msica {
+  top: 481px;
+  left: 490px;
+  font-size: var(--font-size-xl);
+  width: 460px;
+}
+.experiencia-musical {
+  color: var(--color-blueviolet-100);
+}
+.con-sunsound-tu,
+.tu-experiencia-musical-container {
+  margin: 0;
+  position: absolute;
+  left: 0;
+  font-family: inherit;
+  display: inline-block;
+  width: 508px;
+}
+.tu-experiencia-musical-container {
+  top: 0;
+  font-size: inherit;
+  font-weight: 500;
+  height: 109.1px;
+}
+.con-sunsound-tu {
+  top: 137.1px;
+  font-size: var(--font-size-6xl);
+  font-weight: 400;
+  height: 150px;
+}
+.game-iconssound-waves {
+  position: absolute;
+  top: 127.1px;
+  left: 325.6px;
+  width: 81.1px;
+  height: 45.8px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.descubre-y-adquiere,
+.texto-inicio {
+  position: absolute;
+  top: 1131.9px;
+  left: 730px;
+  width: 508px;
+  height: 287.1px;
+  font-size: var(--font-size-21xl);
+}
+.descubre-y-adquiere {
+  margin: 0;
+  top: 137px;
+  left: 0;
+  font-size: var(--font-size-6xl);
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  height: 150px;
+}
+.texto-inicio1 {
+  position: absolute;
+  top: 1849px;
+  left: 202px;
+  width: 508px;
+  height: 287px;
+  font-size: var(--font-size-21xl);
+}
+.sonidos-exclusivos {
+  color: var(--color-white);
+}
+.descubre-un-universo,
+.explora-sonidos-exclusivos-container {
+  margin: 0;
+  position: absolute;
+  left: 0;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  width: 508px;
+}
+.explora-sonidos-exclusivos-container {
+  top: 0;
+  font-size: inherit;
+  height: 97px;
+}
+.descubre-un-universo {
+  top: 125px;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+  height: 210px;
+}
+.texto-inicio2 {
+  position: absolute;
+  top: 3798px;
+  left: 710px;
+  width: 508px;
+  height: 335px;
+  font-size: var(--font-size-21xl);
+  color: var(--color-blueviolet-100);
+}
+.ampla-tus-habilidades,
+.descubre-cursos-musicales-container {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.descubre-cursos-musicales-container {
+  align-self: stretch;
+}
+.ampla-tus-habilidades {
+  flex: 1;
+}
+.game-iconssound-waves3 {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 45.8px;
+  object-fit: cover;
+  margin-left: -182px;
+}
+.frame {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+}
+.lo-que-opinan,
+.qu-esperas-para,
+.texto-inicio3 {
+  position: absolute;
+  font-size: var(--font-size-21xl);
+  text-align: center;
+}
+.texto-inicio3 {
+  top: 5126px;
+  left: 710.1px;
+  width: 508px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 28px 0;
+  color: var(--color-blueviolet-100);
+}
+.lo-que-opinan,
+.qu-esperas-para {
+  margin: 0;
+  top: 6223px;
+  left: 392px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  width: 656px;
+  height: 48px;
+}
+.qu-esperas-para {
+  top: 7548px;
+  height: 97px;
+}
+.aae742e7ae143e686fa6fc69aa1d1a-icon,
+.landing-sunsound-inner {
+  position: absolute;
+  top: 1043px;
+  left: 120px;
+  border-radius: var(--br-11xl);
+  width: 488px;
+  height: 470px;
+  object-fit: cover;
+}
+.aae742e7ae143e686fa6fc69aa1d1a-icon {
+  top: 1743px;
+  left: 832px;
+}
+.rectangle-section {
+  position: absolute;
+  top: 5607px;
+
+  width: 100%;
+  height: 440px;
+  background-image: url(/public/rectangle-6@3x.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.colaboran {
+  margin: 0;
+  position: absolute;
+  top: 5652px;
+  left: 655px;
+  font-size: var(--font-size-6xl);
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  width: 129px;
+  height: 30px;
+}
+
+.landing-sunsound-child1,
+.rectangle-div {
+  position: absolute;
+  top: 8504px;
+  left: 120px;
+  background-color: var(--color-white);
+  width: 1200px;
+  height: 2px;
+}
+.landing-sunsound-child1 {
+  top: 9068px;
+}
+.acerca-de,
+.ingresa,
+.redes-sociales {
+  position: absolute;
+  top: 8594px;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+}
+.redes-sociales {
+  left: 527px;
+  text-align: center;
+}
+.redes-sociales:hover {
+  cursor: pointer;
+}
+.acerca-de,
+.ingresa {
+  left: 730px;
+}
+.acerca-de:hover,
+.facebook:hover,
+.ingresa:hover,
+.instagram:hover,
+.introduccin:hover,
+.plataforma:hover,
+.redes-sociales:hover,
+.solana:hover,
+.twitter:hover {
+  color: var(--color-darkgray-100);
+}
+.ingresa {
+  left: 933px;
+}
+.plataforma,
+.solana,
+.twitter {
+  position: absolute;
+  top: 8641px;
+  left: 527px;
+}
+.plataforma,
+.solana {
+  left: 730px;
+}
+.plataforma {
+  left: 933px;
+}
+.instagram,
+.introduccin {
+  position: absolute;
+  top: 8685px;
+  left: 731px;
+}
+.instagram {
+  left: 527px;
+}
+.discord,
+.facebook,
+.sunsound1,
+.tiktok {
+  position: absolute;
+  top: 8729px;
+  left: 527px;
+}
+.discord,
+.sunsound1,
+.tiktok {
+  top: 8773px;
+}
+.tiktok:hover {
+  cursor: pointer;
+}
+.discord,
+.sunsound1 {
+  top: 8817px;
+}
+.discord:hover,
+.tiktok:hover {
+  color: var(--color-darkgray-100);
+}
+.sunsound1 {
+  margin: 0;
+  top: 8730px;
+  left: 200px;
+  font-size: var(--font-size-6xl);
+  font-family: inherit;
+}
+.sunsound2 {
+  position: absolute;
+  top: 9086px;
+  left: 120px;
+}
+
+
+.sec-button-ingreso{
+  position: absolute;
+  left: 40.07%;
+  width: 176px;
+  height: 100px;
+  bottom: 15.92%;}
+
+
+  
+  .sec-button-plataforma{
+    position: absolute;
+    width: 158px;
+    height: 84px;
+    z-index: 100;
+    left: 80%;
+    top: 3px;
+  }

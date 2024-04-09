@@ -1,139 +1,47 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
 body {
   margin: 0;
   line-height: normal;
-  background-color: #2b2527;
-  font-family: var(--font-montserrat);
-}
-
-
-a{
-  text-decoration: none;
 }
 :root {
   /* fonts */
   --font-montserrat: Montserrat;
 
   /* font sizes */
-  --font-size-xl: 20px;
-  --font-size-lg: 18px;
-  --font-size-base: 1rem;
-  --font-size-sm: 14px;
-  --font-size-rsr:0.875rem;
-  
-  --font-size-mini: 15px;
+  --font-size-base: 16px;
   --font-size-6xl: 25px;
-  --font-size-26xl: 45px;
-  --font-size-3xs: 10px;
-  --font-size-h1: 40px;
-  --font-size-h2: 38px;
-  --font-size-h3: 20px;
-  
-
+  --font-size-lg: 18px;
+  --font-size-sm: 14px;
+  --font-size-xl: 20px;
+  --font-size-21xl: 40px;
 
   /* Colors */
-  --color-gray-100: #7a7a7a;
-  --color-gray-200: #221e1f;
-  --color-gray-300: rgba(34, 30, 31, 0.37);
-  --color-gray-500:#858383b3;
-  --color-white: #fff;
   --color-blueviolet-100: #8f00ff;
-  --color-blueviolet-200: rgba(143, 0, 255, 0.2);
-  --color-darkgray-100: #a7a7a7;
-  --color-darkgray-200: #9f9d9e;
-  --color-darkgray-300: rgba(155, 155, 155, 0.46);
-  --color-gainsboro-100: #d9d9d9;
-  --color-gainsboro-200: rgba(217, 217, 217, 0);
-  --color-mediumorchid: #a258dd;
-  --color-plum: #d3afee;
-  --color-dimgray: #635b5d;
-  --color-lightgray: #cdcdcd;
-
-
-  --color-dimgray-100: rgba(90, 79, 86, 0.14);
+  --color-gray-100: rgba(255, 255, 255, 0.5);
+  --color-white: #fff;
+  --color-darkgray-100: #a6a6a6;
+  --color-darkgray-200: #9b9b9b;
+  --color-darkslategray: #322e2f;
 
   /* Gaps */
-  --gap-0: 0px;
-
-  /* Paddings */
-  --padding-0: 0px;
-
-  /* Margin */
-
-  --layout-sidebar-width: 210px;
+  --gap-9xl: 28px;
 
   /* Border radiuses */
+  --br-20xl: 39px;
+  --br-22xl: 41px;
+  --br-11xl: 30px;
   --br-3xs: 10px;
-  --br-9xs: 4px;
-  --br-5xs: 8px;
-  --br-8xs: 5px;
-  --br-6xl: 25px;
-  --br-xl: 20px;
-  --br-4xl: 23px;
-  --br-mini: 15px;
-  --br-97xl-5: 116.5px;
-  --br-86xl: 105px;
-
-
-  /* Grid*/
-  --grid-item--min-width: calc((max(0px, 640px) - 0px*(4 - 1)) / 4);
 }
 
 
-.page-main{
-  margin-left: var(--layout-sidebar-width);
-  min-width: 770px;
+.landing-sunsound-body {
+  width: 100%;
   position: relative;
+  background-color: #221e1f;
+  height: 9334px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
 }
-
-.app-content-navbar-header-allpageplataform{
-  display: flex;
-  width: 100%;
-}
-
-
-.app-content-headerbar-allroutes{
-  width: 100%;
-}
-
-
-.page-main{
-  margin-left: var(--layout-sidebar-width);
-  min-width: 770px;
-  position: relative;
-}
-
-.app-content-navbar-header-allpageplataform{
-  display: flex;
-  width: 100%;
-}
-
-
-.app-content-headerbar-allroutes{
-  width: 100%;
-}
-
-.wallet-adapter-modal{
-  z-index: 999999999;
-}
-
-.wallet-adapter-button-trigger{
-  background-color: rgb(72, 39, 142);
-  
-  width: auto !important;
-
-}
-
-
-.wallet-adapter-button-trigger{    
-  border-radius: var(--br-3xs);
-  width: 112px;
-  height: 39px;
-
-  cursor: pointer;
-  transition: 0.5s;
-}
-
-.wallet-modal-edit {
-  /* Establece el índice de apilamiento del modal para que se muestre adelante de otros componentes */
-  z-index: 9999999999999999999;}

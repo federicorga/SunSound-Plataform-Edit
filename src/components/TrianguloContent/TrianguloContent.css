@@ -1,0 +1,13 @@
+
+.content-triangulo-component{
+    width: 90%;
+}
+.triangulo-Content-grupA{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.triangulo-Content-grupB{
+    display: flex;
+    justify-content: flex-end;
+}

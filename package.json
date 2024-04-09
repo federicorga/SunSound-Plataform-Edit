@@ -1,13 +1,8 @@
 {
-  "name": "sunsound_plataform",
+  "name": "sunsound",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-   "@solana/wallet-adapter-base": "^0.9.23",
-    "@solana/wallet-adapter-react": "^0.15.35",
-    "@solana/wallet-adapter-react-ui": "^0.9.35",
-    "@solana/wallet-adapter-wallets": "^0.19.32",
-    "@solana/web3.js": "^1.91.4",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -15,26 +10,17 @@
     "@types/node": "^16.11.14",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
-    "browserify-zlib": "^0.2.0",
-    "crypto-browserify": "^3.12.0",
-    "https-browserify": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.2.1",
-    "react-scripts": "^5.0.1",
-    "stream": "^0.0.2",
-    "stream-browserify": "^3.0.0",
-    "stream-http": "^3.2.0",
-    "url": "^0.11.3",
-    "web-vitals": "^2.1.4"
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4",
+    "react-router-dom": "^6.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "aws s3 sync build/ s3://app.sunsound.io",
-    "prod": "npm run build && npm run deploy"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "root": true

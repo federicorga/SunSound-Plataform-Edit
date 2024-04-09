@@ -1,0 +1,65 @@
+.logo-web-1-icon2 {
+  position: absolute;
+  top: 0;
+  left: 502px;
+  width: 224px;
+  height: 84px;
+  object-fit: cover;
+}
+.logo-web-3-icon1,
+.logo-web-5-icon2,
+.sustain-1-icon2,
+.sustain-2-icon2 {
+  position: absolute;
+  top: 0;
+  left: 1112px;
+  width: 224px;
+  height: 84px;
+  object-fit: cover;
+}
+.logo-web-3-icon1,
+.sustain-1-icon2,
+.sustain-2-icon2 {
+  left: -108px;
+}
+.sustain-1-icon2,
+.sustain-2-icon2 {
+  top: -1px;
+  left: 220px;
+  width: 178px;
+  height: 85px;
+}
+.sustain-2-icon2 {
+  left: 830px;
+}
+.logo-web-1-icon3,
+.logo-web-5-icon3,
+.sustain-1-icon3,
+.sustain-2-icon3 {
+  position: absolute;
+  top: 0;
+  left: 1722px;
+  width: 224px;
+  height: 84px;
+  object-fit: cover;
+}
+.logo-web-5-icon3,
+.sustain-1-icon3,
+.sustain-2-icon3 {
+  left: 2332px;
+}
+.sustain-1-icon3,
+.sustain-2-icon3 {
+  top: -1px;
+  left: 1440px;
+  width: 178px;
+  height: 85px;
+}
+.sustain-2-icon3 {
+  left: 2050px;
+}
+.property-1frame-11 {
+  width: 1440px;
+  height: 82px;
+  overflow: hidden;
+}

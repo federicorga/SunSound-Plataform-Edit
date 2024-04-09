@@ -1,0 +1,49 @@
+
+
+.section-textbox-landing{display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;}
+
+  .div-content-h2-h3-textboxlanding{
+    padding-left: 50px;
+  }
+
+.img-textboxlanding {
+
+
+
+  border-radius: var(--br-11xl);
+  width: 488px;
+  height: 470px;
+  object-fit: cover;
+}
+
+.h2-textboxlanding{
+  font-weight: 500;
+  font-family: inherit;
+  padding-bottom: 2rem;
+  font-size: var(--font-size-21xl);
+}
+
+.text-color-B2{
+    color: var(--color-blueviolet-100);
+}
+
+.h3-textboxlanding{
+    
+  font-size: var(--font-size-6xl);
+  font-weight: 400;
+  height: 150px;
+  font-family: inherit;
+}
+
+.h3-textboxlanding
+.h2-textboxlanding {
+  margin: 0;
+
+  left: 0;
+  font-family: inherit;
+  display: inline-block;
+  width: 508px;
+}

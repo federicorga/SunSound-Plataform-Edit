@@ -1,0 +1,175 @@
+body{
+    background-color: #221e1f;
+    font-size: var(--font-size-base);
+    color: var(--color-white);
+    font-family: var(--font-montserrat);
+}
+
+.landing-Inicio-componentA{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        width: 100%;
+        height: 926px;
+        background-image: url(/public/peakpx\ 1.gif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+      
+}
+
+.landing-Inicio-componentA h1{
+    margin: 0;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: inherit;
+    width: 460px;
+    text-align: center;
+}
+
+
+.landing-Inicio-componentA h2{
+    font-size: var(--font-size-xl);
+    width: 460px;
+    text-align: center;
+}
+
+
+.landing-ComponentPrimari{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+ 
+}
+
+
+.landing-ComponentC{
+    display: flex;
+    width: 100%;
+    height: 440px;
+    background-image: url('../../../public/rectangle-6@3x.gif');
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 200px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+  
+   
+}
+
+.landing-ComponentC h2{
+    font-size: var(--font-size-6xl);
+    font-weight: 500;
+    font-family: inherit;
+    display: inline-block;
+    width: 129px;
+    height: 30px;
+        font-size: var(--font-size-21xl);
+}
+
+.landing-ComponentD{
+    display: flex;
+    width: 100%;
+    margin-bottom: 200px;
+    height: 800px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.landing-content-UserOpinions{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+
+.landing-ComponentD h2{
+    width: 100%;
+    text-align: center;
+    font-size: var(--font-size-6xl);
+    font-weight: 500;
+    font-family: inherit;
+    display: inline-block;
+    margin: 0;
+   
+}
+
+
+
+.Content-All-CardsStar{
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.content-triangulo-component{
+    position: absolute;
+    z-index: 3;
+}
+
+
+.content-textboxlanding-B{
+    padding-bottom: 200px;
+    position: relative;
+    z-index: 3;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+.textbox-contentB-left{
+   display: flex;
+   width: 100%;
+   padding-bottom: 100px;
+}
+
+.textbox-contentB-right{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.width-box-text-landing{
+    width: 508px;
+}
+
+
+.landing-ComponentE{
+display: flex;
+    background-image: url('../../../public/rectangle-39@3x.gif');
+    width: 100%;
+    height: 839px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-button-ingresor{
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .sec-button-ingresor h2{
+    margin: 0;
+    font-weight: 500;
+    font-family: inherit;
+    width: 656px;
+    font-size: 2.5rem;
+    text-align: center;
+  
+  }
+

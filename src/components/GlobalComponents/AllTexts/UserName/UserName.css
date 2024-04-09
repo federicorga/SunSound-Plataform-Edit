@@ -1,8 +1,0 @@
-.text-user-name{
-    font-size: var(--font-size-26xl);
-    font-weight: 600;
-    color: var(--color-white);
-    text-transform: none;
-    font-family: var(--font-montserrat);
-    margin: 0;
-}

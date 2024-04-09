@@ -1,0 +1,384 @@
+.reseas-scroll-child {
+  outline: 0;
+  left: -126px;
+  width: 387px;
+  height: 583px;
+}
+.reseas-scroll-child,
+.reseas-scroll-child1,
+.reseas-scroll-child2,
+.reseas-scroll-child3,
+.reseas-scroll-inner,
+.reseas-scroll-item {
+  position: absolute;
+  top: 10px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-darkslategray);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+}
+.reseas-scroll-item {
+  outline: 0;
+  left: 1093px;
+  width: 387px;
+  height: 583px;
+}
+.reseas-scroll-child1,
+.reseas-scroll-child2,
+.reseas-scroll-child3,
+.reseas-scroll-inner {
+  width: 386px;
+  height: 228px;
+}
+.reseas-scroll-inner {
+  outline: 0;
+  left: 281px;
+}
+.reseas-scroll-child1,
+.reseas-scroll-child2,
+.reseas-scroll-child3 {
+  left: 1500px;
+}
+.reseas-scroll-child2,
+.reseas-scroll-child3 {
+  top: 365px;
+  left: 687px;
+}
+.reseas-scroll-child3 {
+  left: 1906px;
+}
+.reseas-scroll-child4 {
+  top: 258px;
+  left: 281px;
+}
+.rectangle-textarea,
+.reseas-scroll-child4,
+.reseas-scroll-child5,
+.reseas-scroll-child6 {
+  position: absolute;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-darkslategray);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  width: 386px;
+  height: 335px;
+}
+.reseas-scroll-child5 {
+  top: 258px;
+  left: 1500px;
+}
+.rectangle-textarea,
+.reseas-scroll-child6 {
+  top: 10px;
+}
+.rectangle-textarea {
+  outline: 0;
+  left: 687px;
+}
+.reseas-scroll-child6 {
+  left: 1906px;
+}
+.sunsound-es-una10,
+.sunsound-es-una7,
+.sunsound-es-una8,
+.sunsound-es-una9 {
+  position: absolute;
+  top: 43px;
+  left: -89px;
+  font-size: var(--font-size-xl);
+  line-height: 160%;
+  display: inline-block;
+  width: 313px;
+  height: 383px;
+}
+.sunsound-es-una10,
+.sunsound-es-una8,
+.sunsound-es-una9 {
+  left: 1130px;
+}
+.sunsound-es-una10,
+.sunsound-es-una9 {
+  left: 317px;
+  height: 63px;
+}
+.sunsound-es-una10 {
+  left: 1536px;
+}
+.no-puedo-esperar4,
+.no-puedo-esperar5,
+.no-puedo-esperar6,
+.no-puedo-esperar7,
+.sunsound-es-una11,
+.sunsound-es-una12 {
+  position: absolute;
+  top: 398px;
+  left: 723px;
+  font-size: var(--font-size-xl);
+  line-height: 160%;
+  display: inline-block;
+  width: 313px;
+  height: 63px;
+}
+.no-puedo-esperar4,
+.no-puedo-esperar5,
+.no-puedo-esperar6,
+.no-puedo-esperar7,
+.sunsound-es-una12 {
+  left: 1942px;
+}
+.no-puedo-esperar4,
+.no-puedo-esperar5,
+.no-puedo-esperar6,
+.no-puedo-esperar7 {
+  top: 291px;
+  left: 317px;
+  height: 159px;
+}
+.no-puedo-esperar5,
+.no-puedo-esperar6,
+.no-puedo-esperar7 {
+  left: 1536px;
+}
+.no-puedo-esperar6,
+.no-puedo-esperar7 {
+  top: 43px;
+  left: 723px;
+}
+.no-puedo-esperar7 {
+  left: 1942px;
+}
+.reseas-scroll-child7,
+.reseas-scroll-child8 {
+  position: absolute;
+  top: 147px;
+  left: 318px;
+  border-radius: var(--br-22xl);
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+.reseas-scroll-child8 {
+  left: 1537px;
+}
+.reseas-scroll-child10,
+.reseas-scroll-child11,
+.reseas-scroll-child12,
+.reseas-scroll-child9 {
+  position: absolute;
+  top: 502px;
+  left: 724px;
+  border-radius: var(--br-22xl);
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+.reseas-scroll-child10,
+.reseas-scroll-child11,
+.reseas-scroll-child12 {
+  left: 1943px;
+}
+.reseas-scroll-child11,
+.reseas-scroll-child12 {
+  left: 318px;
+}
+.reseas-scroll-child12 {
+  left: 1537px;
+}
+.reseas-scroll-child13,
+.reseas-scroll-child14,
+.reseas-scroll-child15,
+.reseas-scroll-child16 {
+  position: absolute;
+  top: 254px;
+  left: 724px;
+  border-radius: var(--br-22xl);
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+.reseas-scroll-child14,
+.reseas-scroll-child15,
+.reseas-scroll-child16 {
+  left: 1943px;
+}
+.reseas-scroll-child15,
+.reseas-scroll-child16 {
+  top: 502px;
+  left: -89px;
+}
+.reseas-scroll-child16 {
+  left: 1130px;
+}
+.alfred-music11,
+.alfred-music12 {
+  position: absolute;
+  top: 140px;
+  left: 390px;
+  line-height: 160%;
+  font-weight: 500;
+}
+.alfred-music12 {
+  left: 1609px;
+}
+.alfred-music13,
+.alfred-music14,
+.alfred-music15,
+.alfred-music16 {
+  position: absolute;
+  top: 495px;
+  left: 796px;
+  line-height: 160%;
+  font-weight: 500;
+}
+.alfred-music14,
+.alfred-music15,
+.alfred-music16 {
+  left: 2015px;
+}
+.alfred-music15,
+.alfred-music16 {
+  left: -17px;
+}
+.alfred-music16 {
+  left: 1202px;
+}
+.alfred-music17,
+.alfred-music18,
+.alfred-music19,
+.alfred-music20 {
+  position: absolute;
+  top: 495px;
+  left: 390px;
+  line-height: 160%;
+  font-weight: 500;
+}
+.alfred-music18,
+.alfred-music19,
+.alfred-music20 {
+  left: 1609px;
+}
+.alfred-music19,
+.alfred-music20 {
+  top: 247px;
+  left: 796px;
+}
+.alfred-music20 {
+  left: 2015px;
+}
+.alfredmusicok11,
+.alfredmusicok12,
+.alfredmusicok13,
+.alfredmusicok14 {
+  position: absolute;
+  top: 524px;
+  left: -17px;
+  line-height: 160%;
+  font-weight: 500;
+  color: var(--color-darkgray-200);
+}
+.alfredmusicok12,
+.alfredmusicok13,
+.alfredmusicok14 {
+  left: 1202px;
+}
+.alfredmusicok13,
+.alfredmusicok14 {
+  top: 169px;
+  left: 390px;
+}
+.alfredmusicok14 {
+  left: 1609px;
+}
+.alfredmusicok15,
+.alfredmusicok16,
+.alfredmusicok17,
+.alfredmusicok18,
+.alfredmusicok19,
+.alfredmusicok20 {
+  position: absolute;
+  top: 524px;
+  left: 796px;
+  line-height: 160%;
+  font-weight: 500;
+  color: var(--color-darkgray-200);
+}
+.alfredmusicok16,
+.alfredmusicok17,
+.alfredmusicok18,
+.alfredmusicok19,
+.alfredmusicok20 {
+  left: 2015px;
+}
+.alfredmusicok17,
+.alfredmusicok18,
+.alfredmusicok19,
+.alfredmusicok20 {
+  left: 390px;
+}
+.alfredmusicok18,
+.alfredmusicok19,
+.alfredmusicok20 {
+  left: 1609px;
+}
+.alfredmusicok19,
+.alfredmusicok20 {
+  top: 276px;
+  left: 796px;
+}
+.alfredmusicok20 {
+  left: 2015px;
+}
+.reseas-scroll-child17 {
+  position: absolute;
+  top: 10px;
+  left: 2312px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-darkslategray);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  width: 387px;
+  height: 583px;
+}
+.sunsound-es-una13 {
+  position: absolute;
+  top: 43px;
+  left: 2349px;
+  font-size: var(--font-size-xl);
+  line-height: 160%;
+  display: inline-block;
+  width: 313px;
+  height: 383px;
+}
+.reseas-scroll-child18 {
+  position: absolute;
+  top: 502px;
+  left: 2349px;
+  border-radius: var(--br-22xl);
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+.alfred-music21,
+.alfredmusicok21 {
+  position: absolute;
+  top: 495px;
+  left: 2421px;
+  line-height: 160%;
+  font-weight: 500;
+}
+.alfredmusicok21 {
+  top: 524px;
+  color: var(--color-darkgray-200);
+}
+.reseas-scroll {
+  position: absolute;
+  top: 6366px;
+  left: 0;
+  width: 1440px;
+  height: 603px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}

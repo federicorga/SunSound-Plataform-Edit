@@ -1,0 +1,161 @@
+
+footer{
+  margin-top: 200px;
+  margin-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.sunsound-footer{
+ 
+  width: 130px;
+  left: 120px;
+  font-size: var(--font-size-xl);
+}
+
+.content-text-footer{
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.content-colum-footer{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+  .rectangle-diver {
+ 
+    background-color: var(--color-white);
+
+    height: 2px;
+  }
+  
+  .footer-redes-sociales {
+    
+    
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+    
+    text-align: center;
+  }
+  
+  .footer-acerca-de,
+  .footer-ingresa {
+    
+    
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+    
+    cursor: pointer;
+  }
+  
+
+  
+  .footer-twitter,
+  .footer-solana,
+  .footer-plataforma,
+  .footer-redes-sociales
+   {
+    
+    
+    
+    cursor: pointer;
+  }
+  
+  .footer-solana,
+  .footer-plataforma {
+    
+    cursor: pointer;
+  }
+  
+  .footer-plataforma {
+    
+    cursor: pointer;
+  }
+  
+  .footer-instagram,
+  .footer-introduccin {
+    
+    
+    
+    cursor: pointer;
+  }
+  
+  .footer-instagram {
+    
+    cursor: pointer;
+  }
+  
+  .footer-discord,
+  .footer-facebook,
+  .footer-sunsound1,
+  .footer-tiktok {
+    
+    
+    
+    cursor: pointer;
+  }
+  
+  .footer-discord,
+  .footer-sunsound1,
+  .footer-tiktok {
+    
+    cursor: pointer;
+  }
+  
+  .footer-tiktok:hover {
+    cursor: pointer;
+  }
+  
+  .footer-discord,
+  .footer-sunsound1 {
+    
+    cursor: pointer;
+  }
+  
+  .footer-discord:hover,
+  .footer-tiktok:hover {
+    color: var(--color-darkgray-100);
+  }
+  
+  .footer-sunsound1 {
+    margin: 0;
+    top: 8730px;
+    
+    font-size: var(--font-size-6xl);
+    font-family: inherit;
+  }
+  
+  .footer-sunsound2 {
+    
+  top: 0;
+    
+  }
+  
+
+  .footer-acerca-de:hover,
+  .footer-facebook:hover,
+  .footer-ingresa:hover,
+  .footer-instagram:hover,
+  .footer-introduccin:hover,
+  .footer-plataforma:hover,
+  .footer-redes-sociales:hover,
+  .footer-solana:hover,
+  .footer-twitter:hover,
+  .footer-discord:hover,
+  .footer-tiktok:hover {
+    color: var(--color-darkgray-100);
+  }
+
+  .footer-acerca-de,
+.footer-ingresa,
+.footer-redes-sociales {
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+}

@@ -1,0 +1,29 @@
+.property-triangulo {
+    width: 100%;
+    max-width: 100%;
+
+  }
+  
+
+  @keyframes rotate {
+    /* Define el estado inicial de la animación */
+    from {
+      transform: rotate(0deg);
+    }
+    
+    /* Define el estado final de la animación */
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Aplica la animación a un elemento con la clase 'rotating' */
+  .rotating {
+    width: 200px;
+    height: 200px;
+    /* Establece el punto de transformación en el centro del elemento */
+    transform-origin: center;
+    
+    /* Asigna la animación 'rotate' con una duración de 2 segundos y hace que se repita infinitamente */
+    
+  }

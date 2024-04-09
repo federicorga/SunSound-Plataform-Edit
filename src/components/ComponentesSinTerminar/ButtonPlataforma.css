@@ -1,0 +1,28 @@
+.property-1default-child21 {
+  position: absolute;
+  height: 93.33%;
+  width: 100%;
+  top: 4.44%;
+  right: 0;
+  bottom: 2.22%;
+  left: 0;
+  border-radius: var(--br-20xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.plataforma1 {
+  position: absolute;
+  top: 31.11%;
+  left: 20%;
+}
+.property-1default2 {
+  width: 130px;
+  height: 45px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+
