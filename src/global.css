@@ -133,3 +133,7 @@ a{
   cursor: pointer;
   transition: 0.5s;
 }
+
+.wallet-modal-edit {
+  /* Establece el índice de apilamiento del modal para que se muestre adelante de otros componentes */
+  z-index: 9999999999999999999;}

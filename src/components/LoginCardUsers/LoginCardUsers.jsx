@@ -14,7 +14,7 @@ function LoginCardUsers({onCloseForm, confirmlogin}) {
     <div className='button-close-logincardUsers'onClick={onCloseForm} ><IconCross></IconCross></div>
 
     <div className='title-logincardUserss-content'>
-        <h2 className='title-logincardUsers-h2'>¿Listo para unirte a SunSound?</h2>
+        <h2 className='title-logincardUsers-h2'>Ready to join SunSound?</h2>
         
     </div>
     <div className='form-logincardUsers-content'>
@@ -28,12 +28,12 @@ function LoginCardUsers({onCloseForm, confirmlogin}) {
     </div>
     <div className='button-connect-logincarUser-content'>
         <div className='content-button-ingreso-logincardUser' onClick={handleLoginButtonClick}>
-        <ButtonA text={"Ingresar"} width={"100%"} colorButton={"#494fcd"}></ButtonA>
+        <ButtonA text={"Login"} width={"100%"} colorButton={"#494fcd"}></ButtonA>
         </div>
         <p>o</p>
-        <ButtonA text={"Ingresar con tu wallet"} width={"100%"} colorButton={"rgb(223 217 217 / 14%)"} ></ButtonA>
+        <ButtonA text={"Sign in with your wallet"} width={"100%"} colorButton={"rgb(223 217 217 / 14%)"} ></ButtonA>
         </div>
-    <div className='question-logincardUser-content'><p>¿Olvidaste tu contraseña?</p><span>click aqui</span></div>
+    <div className='question-logincardUser-content'><p>Forgot your password?</p><span>click here</span></div>
       
     </section>
   );

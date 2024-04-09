@@ -9,7 +9,7 @@ function SectionInicioPlataform() {
     <section className="content-section-home-plataform">
 
        
-        <CarrouselGeneral titleCarrousel="Playlists que amarás" items={[
+        <CarrouselGeneral titleCarrousel="Playlists you'll love" items={[
            <MusicCarPlayerComponent
            size={"214px"}
            imgSrc={"/img/NFTs/IMG-20231218-WA0029.jpg"}
@@ -74,7 +74,7 @@ function SectionInicioPlataform() {
 
         </CarrouselGeneral>
 
-        <CarrouselGeneral titleCarrousel='Artistas' items={[
+        <CarrouselGeneral titleCarrousel='Artists' items={[
               <CardImgUser size='200px' imgUserurl={"/rectangle-112@2x.png"}></CardImgUser>,
               <CardImgUser size='200px' imgUserurl={"/img/NFTs/IMG-20231218-WA0026.jpg"}></CardImgUser>,
               <CardImgUser size='200px' imgUserurl={"/img/NFTs/IMG-20231218-WA0021.jpg"}></CardImgUser>,

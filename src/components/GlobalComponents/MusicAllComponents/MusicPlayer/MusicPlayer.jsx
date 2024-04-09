@@ -87,7 +87,7 @@ function MusicPlayer({ playlist }) {
         <SliderVolumen onChangeVolume={handleVolumeChange} />
       </section>
       <section>
-        <ButtonA text={"Coleccionar"}></ButtonA>
+        <ButtonA text={"Collect"}></ButtonA>
       </section>
     </div>
   );

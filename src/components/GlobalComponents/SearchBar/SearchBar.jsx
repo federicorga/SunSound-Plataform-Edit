@@ -11,7 +11,7 @@ const SearchBar = () => {
   const handleSearchSubmit = (e) => {
     e.preventDefault();
     // Aquí puedes agregar la lógica para manejar la búsqueda
-    console.log(`Realizar búsqueda con: ${searchQuery}`);
+    console.log(`Do a search with: ${searchQuery}`);
   };
 
   return (
@@ -19,7 +19,7 @@ const SearchBar = () => {
       <form className='form-search-bar' onSubmit={handleSearchSubmit}>
         <input className='input-search-bar'
           type="text"
-          placeholder="Busca por género, artista o nombre de tema..."
+          placeholder="Search by genre, artist, or song title..."
           value={searchQuery}
           onChange={handleSearchChange}
         />

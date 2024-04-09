@@ -18,6 +18,7 @@ import PlataformMyCollections from "./components/AllSectionsPlataform/PlataformM
 import MusicProvider from "./components/providers/MusicProvider";
 import { PlayerProvider } from "./components/providers/PlayerProvider";
 import SectionInicioPlataform from "./components/AllSectionsPlataform/SectionInicioPlataform/SectionInicioPlataform";
+import { AppWalletProvider } from "./components/providers/AppWalletProvider";
 
 //https://owlcarousel2.github.io/OwlCarousel2/demos/basic.html
 
@@ -60,9 +61,9 @@ function App() {
   return (
     <>
 
-      
+      <AppWalletProvider>
       <MusicProvider>
-
+  
         <PlayerProvider>
 
           <HeaderBarPlataform />
@@ -83,7 +84,7 @@ function App() {
         </PlayerProvider>
 
       </MusicProvider>
-   
+      </AppWalletProvider>
     </>
   );
 }

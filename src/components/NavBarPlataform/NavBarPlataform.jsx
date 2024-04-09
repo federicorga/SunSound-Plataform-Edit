@@ -27,13 +27,13 @@ function NavBarPlataform() {
       <div className='div-content-img-button-navbar'>
       <div className='div-img-ico-navbar'><IconColeccion></IconColeccion></div>
       <Link to="/profile/collection"> 
-      <ButtonNavBar textButton={'Tu colección'}></ButtonNavBar>
+      <ButtonNavBar textButton={'collection'}></ButtonNavBar>
       </Link>
       </div>
       <div className='div-content-img-button-navbar'>
       <div className='div-img-ico-navbar'><IconCurso></IconCurso></div>
       <Link to="/courses">
-      <ButtonNavBar textButton={'Cursos'}></ButtonNavBar>
+      <ButtonNavBar textButton={'Courses'}></ButtonNavBar>
       </Link>
       </div>
       <div className='div-content-img-button-navbar'>
@@ -47,7 +47,7 @@ function NavBarPlataform() {
       <div className='div-content-img-button-navbar'>
         <div className='div-img-ico-navbar'><IconProfile></IconProfile></div>
       <Link to="/profile/releases">
-      <ButtonNavBar textButton={'Perfil'}></ButtonNavBar>
+      <ButtonNavBar textButton={'Profile'}></ButtonNavBar>
       </Link>
       </div>
       </section>

@@ -1,3 +1,4 @@
+
 import { ConnectionProvider, WalletProvider } from "@solana/wallet-adapter-react";
 import { WalletModalProvider, WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import {
@@ -8,9 +9,8 @@ import {
     TorusWalletAdapter
 } from "@solana/wallet-adapter-wallets";
 import React, {useMemo,useContext } from 'react';
-
-
 import '@solana/wallet-adapter-react-ui/styles.css';
+
 
 const appWalletContext = React.createContext();
 
@@ -19,7 +19,7 @@ export function useAppWalletContext(){ //la funcion ejecuta el useContext
 }
 
 
-
+/*
 function ButtonActiveWallet() {
     return (
         <AppWalletProvider>
@@ -28,15 +28,15 @@ function ButtonActiveWallet() {
     );
 }
 
+*/
 
 
 
 
-
-const AppWalletProvider = ({ children }) => {
+export const AppWalletProvider = ({ children }) => {
     // const network = WalletAdapterNetwork.Devnet;
     // const endpoint = useMemo(() => clusterApiUrl(network), [network])
-    const endpoint = process.env.REACT_APP_API_ENDPOINT || "http://localhost:3000";// local cluster override
+    const endpoint =process.env.REACT_APP_API_ENDPOINT || "https://localhost:3000";// local cluster override
 
     const wallets = useMemo(() => [
         new PhantomWalletAdapter(),
@@ -49,7 +49,7 @@ const AppWalletProvider = ({ children }) => {
     return (
         <ConnectionProvider endpoint={endpoint}>
             <WalletProvider wallets={wallets} autoConnect>
-                <WalletModalProvider >{children}</WalletModalProvider>
+                <WalletModalProvider   className="wallet-modal-edit" >{children}</WalletModalProvider>
             </WalletProvider>
         </ConnectionProvider>
     )
@@ -58,7 +58,7 @@ const AppWalletProvider = ({ children }) => {
 //Conection wallet button / boton de conexion con la wallet.
 
 
-const Content= () => {
+export const ContentWalletMultiButton= () => {
     return (
         <div className="button-wallet">
             <WalletMultiButton />
@@ -69,7 +69,7 @@ const Content= () => {
 
 
 
-export default ButtonActiveWallet;
+
 
 
 

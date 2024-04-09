@@ -8,9 +8,9 @@ const SecondNavBarPlataform = () => {
             <StadistcUserPlataformNav></StadistcUserPlataformNav>
         <div className='secondNavBar-content-menu'>
             <ul className='ul-secondNavbar'>
-                <li className='li-secondNavbar'><Link to={'/profile/releases'} className='a-secondNavbar'>Lanzamientos</Link></li>
+                <li className='li-secondNavbar'><Link to={'/profile/releases'} className='a-secondNavbar'>releases</Link></li>
                 <li className='li-secondNavbar'><Link to={'/profile/posts'} className='a-secondNavbar'>Posts</Link></li>
-                <li className='li-secondNavbar'><Link to={'/profile/collection'} className='a-secondNavbar'>Colecciones</Link></li>
+                <li className='li-secondNavbar'><Link to={'/profile/collection'} className='a-secondNavbar'>collection</Link></li>
                 <li className='li-secondNavbar'><Link to={'/profile/playlist'} className='a-secondNavbar'>PlayList</Link></li>
             </ul>
         </div>

@@ -16,8 +16,8 @@ function UserTitlePlataform({userVerify=true, countSongs=10, countListener=30000
       <UserName userName='Angel' upperCase={true}></UserName>
       {userVerify?<IconVerify  size={"50px"}></IconVerify>:''}
       </div>
-      <h3 className='user-verification-text'>{userVerify? 'ARTISTA VERIFICADO':'ARTISTA NO VERIFICADO'}</h3>
-      <p className='user-p-detalle-canciones-oyentes'>{countSongs} canciones publicadas - {countListener} oyentes</p>
+      <h3 className='user-verification-text'>{userVerify? 'VERIFIED ARTIST':'ARTISTA NO VERIFICADO'}</h3>
+      <p className='user-p-detalle-canciones-Listeners'>{countSongs} Published songs - {countListener} Listeners</p>
       </div>
     </section>
      </>

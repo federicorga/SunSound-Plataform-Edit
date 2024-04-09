@@ -8,19 +8,17 @@ function LoadingMusicForm({ onCloseForm }) {
     <section className='content-form-title-boxPictur'>
       <div className='content-title-and-form-loadingMusic'>
         <div>
-            <h2 className='loading-music-titleh2'>Publica una nueva canción</h2>
+            <h2 className='loading-music-titleh2'>Publish a new song</h2>
         </div>
       <div className='content-form-loadingMusic'>
         <form className='form-laadingMusic' action="">
-            <label className='label-loadingmusic' for="nombre de cancion">nombre de cancion</label>
+            <label className='label-loadingmusic' for="Song title">Song title</label>
             <input className='input-loadingmusic' type="text" />
-            <label className='label-loadingmusic' for="">Artistas que colaboran</label>
+            <label className='label-loadingmusic' for="">Collaborating artists</label>
             <input className='input-loadingmusic' type="text" />
-            <label className='label-loadingmusic' for="">Precio a pagar</label>
+            <label className='label-loadingmusic' for="">Price to pay</label>
             <input className='input-loadingmusic' type="text" />
-            <label className='label-loadingmusic' for="">Programar la publicación</label>
-            <input className='input-loadingmusic' type="text" />
-            <label className='label-loadingmusic' for="mensaje">Escribe un mensaje</label>
+            <label className='label-loadingmusic' for="mensaje">Write a message</label>
             <textarea className='textarea-loadingmusic' id="mensaje" name="mensaje" rows="4" cols="50"></textarea>
           </form>
       </div>
@@ -28,7 +26,7 @@ function LoadingMusicForm({ onCloseForm }) {
       <div className='add-picture-box-loadingMusic'>
         <div className='picture-box-content-text-loadingMusic'>
           <p>+</p>
-          <p>Agregar una foto de portada</p>
+          <p>Upload Image</p>
         </div>
       </div>
       </section>

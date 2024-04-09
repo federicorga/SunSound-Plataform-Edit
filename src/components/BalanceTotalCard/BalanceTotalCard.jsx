@@ -4,16 +4,16 @@ import ButtonA from '../GlobalComponents/AllButtons/ButtonA/ButtonA';
 function BalanceTotalCard({UnityCoin ="$USDT", totalBalance ='00',profits ='00'}) {
   return (
     <>
-      <RectangleContent titulo={'BALANCE TOTAL'} colorFondo={'url(/mask-group.svg)'} width={'250px'} height={'250px'} >
+      <RectangleContent titulo={'TOTAL BALANCE'} colorFondo={'url(/mask-group.svg)'} width={'250px'} height={'250px'} >
         <section className='content-all-balancetotal-card'>
             <div className='content-balancetota-card-info'>
             <div className='balancetotal-unicoin'>{UnityCoin}</div>
             <span className='balancetotal-total'>${totalBalance}</span>
-            <span className='balancetota-profits'>Ganancias ${profits}</span>
+            <span className='balancetota-profits'>Earnings ${profits}</span>
             </div>
             <div className='content-balancetotal-card-buttons'>
-                <ButtonA text={'Ingresar'}/>
-                <ButtonA backgroundConfirm={false} text={'Retirar'}/>
+                <ButtonA text={'Login'}/>
+                <ButtonA backgroundConfirm={false} text={'Withdraw'}/>
                 </div>
         </section>
       </RectangleContent>

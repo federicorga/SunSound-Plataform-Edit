@@ -6,7 +6,7 @@ import IconVerify from '../GlobalComponents/IconBtn/IconVerify/IconVerify';
 function ArtistRectangleCard() {
   return (
     <>
-    <RectangleContent titulo={"ARTISTAS RECOMENDADOS"} width={'250px'} height={'309px'} colorFondo={'#221e1f'}>
+    <RectangleContent titulo={"RECOMMENDED ARTISTS"} width={'250px'} height={'309px'} colorFondo={'#221e1f'}>
     <div className='div-content-artiscard-img-user'>
       <CardImgUser size='46px'  imgUserurl={"/rectangle-112@2x.png"}/>
       <div className='div-content-artiscard-user-verify'>

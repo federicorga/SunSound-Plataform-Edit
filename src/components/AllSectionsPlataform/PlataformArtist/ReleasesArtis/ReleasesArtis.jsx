@@ -13,7 +13,7 @@ function ReleasesArtis({funcionActiveCard}) {
             </RectangleContent>
           
             <RectangleContent
-              titulo={"ÚLTIMOS LANZAMIENTOS"}
+              titulo={"Latest releases"}
               width={"100%"}
               height={"60%"}
             >

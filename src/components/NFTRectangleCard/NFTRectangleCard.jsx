@@ -4,7 +4,7 @@ import CardImgMusic from '../GlobalComponents/AllCards/CardImgMusic/CardImgMusic
 function NFTRectangleCard() {
   return (
     <>
-      <RectangleContent titulo={"Tus NFTs"} width={"250px"} height={"447px"} colorFondo={'#221e1f'}>
+      <RectangleContent titulo={"Your NFTs"} width={"250px"} height={"447px"} colorFondo={'#221e1f'}>
     <section className='nft-card-content-cardmusic'>
     <div>
     <CardImgMusic size={'75px'} imgSrc={'/img/NFTs/IMG-20231218-WA0019.jpg'}></CardImgMusic>

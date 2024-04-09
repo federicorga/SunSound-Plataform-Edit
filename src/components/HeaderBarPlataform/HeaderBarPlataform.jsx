@@ -5,7 +5,8 @@ import SearchBar from '../GlobalComponents/SearchBar/SearchBar'
 
 import UserConnectionConfirm from '../UserAllComponent/UserConnectionConfirm/UserConnectionConfirm';
 import LoginCardUsers from '../LoginCardUsers/LoginCardUsers';
-import ButtonActiveWallet from '../providers/AppWalletProvider';
+import {ContentWalletMultiButton } from '../providers/AppWalletProvider';
+
 const HeaderBarPlataform = () => {
   const [showFormlogin, setShowFormlogin] = useState(false);
   const [buttonIngreso, setbuttonIngreso] = useState(true);
@@ -27,14 +28,16 @@ const HeaderBarPlataform = () => {
    
     <div className='content-header-barplataform'>
       <SearchBar></SearchBar>
-      <ButtonActiveWallet></ButtonActiveWallet>
+      
+      <ContentWalletMultiButton></ContentWalletMultiButton>
       
       {buttonIngreso ? (
         <div onClick={CardLoginUserClickActive}>
-          <ButtonA colorButton={"#48278e"} text={'Ingresar'}  ></ButtonA>
+          <ButtonA colorButton={"#48278e"} text={'Login'}></ButtonA>
           </div>
         ) : (
          <UserConnectionConfirm></UserConnectionConfirm>
+         
         )}
         
       </div>

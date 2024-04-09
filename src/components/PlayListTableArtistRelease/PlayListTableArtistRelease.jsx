@@ -100,7 +100,7 @@ const formatDuration = (duration) => {
             </td>
       
             <td className='td-playListB'>{formatDuration(durations[index])}</td>
-            <td> <ButtonA text={"Coleccionar"}></ButtonA></td>
+            <td> <ButtonA text={"Collect"}></ButtonA></td>
             <td className='td-playlistrelease-ellipsis'><button className='btn-playlistrelease-ellipsis'><IconEllipsis></IconEllipsis></button></td>
           </tr>
           </div>
